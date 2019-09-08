@@ -1,0 +1,25 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "a1ddb84c374d7b3ee5403e5046a71450e9a096724e52754dd2d86c823409463f"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.6"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "static-resume": {
+            "git": "ssh://git@github.com/pierre-24/static_resume.git",
+            "ref": "364adfdd81fb4aec3e0e125a3b78cda092d486ec"
+        }
+    },
+    "develop": {}
+}
