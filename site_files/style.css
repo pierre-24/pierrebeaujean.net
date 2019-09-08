@@ -99,6 +99,10 @@ footer {
     margin-right: 8px;
 }
 
+#ZdS ul {
+    padding-left: 16px;
+}
+
 #skills .skills-container {
     display: flex;
     flex-wrap: wrap;
@@ -149,4 +153,8 @@ footer {
     margin-right: 8px;
     content: " ";
     background: white;
+}
+
+#experiences p em {
+    text-decoration: underline;
 }

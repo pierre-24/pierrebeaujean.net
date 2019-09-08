@@ -42,19 +42,19 @@ def proc_heading(key: str, values: dict) -> dict:
     return {key: final_html}
 
 
-def proc_research_topics(key: str, value: str) -> dict:
+def proc_research_topics(key: str, value: dict) -> dict:
     """Get resarch topics"""
 
-    final_html = '<h2><span class="fa fa-search" aria-hidden="true"></span> Research Topics</h2>'
-    return {key: final_html + markdown.markdown(value)}
+    final_html = '<h2><span class="fa fa-search" aria-hidden="true"></span> {}</h2>'.format(value['title'])
+    return {key: final_html + markdown.markdown(value['text'])}
 
 
-def proc_publications(key: str, values: list) -> dict:
+def proc_publications(key: str, value: dict) -> dict:
     """Get publications"""
 
-    final_html = '<h2><span class="fas fa-microscope" aria-hidden="true"></span> Publications</h2>'
+    final_html = '<h2><span class="fas fa-microscope" aria-hidden="true"></span> {}</h2>'.format(value['title'])
 
-    for publication in values:
+    for publication in value['list']:
         final_html += \
             '<p>{authors}. ' \
             '"{title}". ' \
@@ -64,10 +64,10 @@ def proc_publications(key: str, values: list) -> dict:
     return {key: final_html}
 
 
-def proc_skills(key: str, values: list) -> dict:
-    final_html = '<h2><span class="fas fa-puzzle-piece" aria-hidden="true"></span> Skills</h2>'
+def proc_skills(key: str, value: dict) -> dict:
+    final_html = '<h2><span class="fas fa-puzzle-piece" aria-hidden="true"></span>  {}</h2>'.format(value['title'])
 
-    for section in values:
+    for section in value['list']:
         final_html += '<h3>{}</h3>'.format(section['name'])
         if 'values' in section:
             final_html += '<div class="skills-container">'
@@ -84,24 +84,39 @@ def proc_skills(key: str, values: list) -> dict:
     return {key: final_html}
 
 
-def proc_interests(key: str, values: list) -> dict:
-    final_html = '<h2><span class="fas fa-heart" aria-hidden="true"></span> Interests</h2>'
+def proc_interests(key: str, value: dict) -> dict:
+    final_html = '<h2><span class="fas fa-heart" aria-hidden="true"></span> {}</h2>'.format(value['title'])
 
-    for section in values:
+    for section in value['list']:
         final_html += markdown.markdown('**{}:** {}'.format(section['name'], section['text']))
 
     return {key: final_html}
 
 
-def proc_experiences(key: str, values: list) -> dict:
+def proc_experiences(key: str, value: dict) -> dict:
     final_html = \
-        '<h2><span class="fas fa-chart-line" aria-hidden="true"></span> Experiences</h2><div class="exp-border">'
+        '<h2><span class="fas fa-chart-line" aria-hidden="true"></span> {}</h2>' \
+        '<div class="exp-border">'.format(value['title'])
 
-    for section in values:
+    for section in value['list']:
         final_html += '<h3>{}</h3>{}'.format(
             section['when'], markdown.markdown(section['what']))
 
     final_html += '</div>'
+
+    return {key: final_html}
+
+
+def proc_zds(key: str, value: dict) -> dict:
+    final_html = \
+        '<h2><span class="fas fa-comments" aria-hidden="true"></span> {}</h2>' \
+        '{}' \
+        '<ul>'.format(value['title'], markdown.markdown(value['pre']))
+
+    for section in value['list']:
+        final_html += '<li>{}</li>'.format(markdown.markdown(section))
+
+    final_html += '</ul>'
 
     return {key: final_html}
 
@@ -121,6 +136,7 @@ CONFIG = {
         'publications': proc_publications,
         'skills': proc_skills,
         'interests': proc_interests,
-        'experiences': proc_experiences
+        'experiences': proc_experiences,
+        'ZdS': proc_zds
     }
 }
