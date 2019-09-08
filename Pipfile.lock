@@ -18,7 +18,7 @@
     "default": {
         "static-resume": {
             "git": "ssh://git@github.com/pierre-24/static_resume.git",
-            "ref": "364adfdd81fb4aec3e0e125a3b78cda092d486ec"
+            "ref": "108b5b86e80694242ce6436dcb18933a4eaf3c93"
         }
     },
     "develop": {}
