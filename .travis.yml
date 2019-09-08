@@ -20,5 +20,5 @@ script:
   - |
     # upgrade doc, but only when pushing to "master" branch
     # if [[ "$TRAVIS_BRANCH" == "dev" ]] && [[ "$TRAVIS_PULL_REQUEST" == false ]]; then
-      ./publish.sh
+    ./publish.sh
     # fi
