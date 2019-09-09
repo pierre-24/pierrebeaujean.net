@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-static_resume = {ref = "dev", git = "ssh://git@github.com/pierre-24/static_resume.git"}
+static_resume = {ref = "dev", git = "https://github.com/pierre-24/static_resume.git"}
 
 [dev-packages]
 

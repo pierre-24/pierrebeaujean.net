@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "a1ddb84c374d7b3ee5403e5046a71450e9a096724e52754dd2d86c823409463f"
+            "sha256": "5d34c10ac1acb9b6e038dbdf57797b912e800c3957bb519cf4e175d9cedc5e44"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -17,8 +17,8 @@
     },
     "default": {
         "static-resume": {
-            "git": "ssh://git@github.com/pierre-24/static_resume.git",
-            "ref": "108b5b86e80694242ce6436dcb18933a4eaf3c93"
+            "git": "https://github.com/pierre-24/static_resume.git",
+            "ref": "f2c9ea9334ca23ba66033835c2122d2b5a9f4173"
         }
     },
     "develop": {}
