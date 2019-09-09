@@ -1,12 +1,12 @@
 owner: 'Pierre Beaujean'
 lang: 'en'
 
-now: "Generated on %B, %d %Y."
+now: "This verion was generated on %B, %d %Y."
 
 footer: "Made by Pierre Beaujean.
  Static website by [`static_resume`](https://github.com/pierre-24/static_resume) written in [Python 3](https://www.python.org/).
  Hosted by [Digital Ocean](https://www.digitalocean.com/) and powered by [NGINX](http://nginx.org/).
- Please [report inaccuracies](https://github.com/pierre-24/pierrebeaujean.net/issues)!"
+ Please [report inaccuracies](https://github.com/pierre-24/pierrebeaujean.net/issues)."
 
 heading:
   text: "# Hi! *I'm Pierre Beaujean*
@@ -125,7 +125,7 @@ interests:
     - name: "Teaching assistant (2015 to today)"
       text: "exercises and practical sessions in general chemistry (first year of science), mathematics (second year of chemistry, in differential equations, linear algebra and group theory) and quantum chemistry (third and fourth year of chemistry, practical sessions with GAMESS)."
     - name: "Computer programing (2011 to today)"
-      text: "development of many codes to extract and interpret data from calculation results, written during my master and Ph.D. thesis. Since 2014, regular contributions to the code of Zeste de Savoir, a knowledge-sharing platform written in Python.
+      text: "development of many codes to extract and interpret data from calculation results, written during my master and Ph.D. thesis. Since 2014, regular contributions to the code of [Zeste de Savoir](https://zestedesavoir.com/), a knowledge-sharing platform written in Python.
 
       Since September 2017, I started a bachelor in computer science in evening classes to improve my skills."
     - name: "Private school coach (2011-2015)"
