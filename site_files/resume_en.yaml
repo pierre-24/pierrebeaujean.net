@@ -1,10 +1,10 @@
 owner: 'Pierre Beaujean'
 lang: 'en'
 
-now: "This verion was generated on %B, %d %Y."
+now: "This page was generated on %B, %d %Y."
 
 footer: "Made by Pierre Beaujean.
- Static website by [`static_resume`](https://github.com/pierre-24/static_resume) written in [Python 3](https://www.python.org/).
+ Static website by [`static_resume`](https://github.com/pierre-24/static_resume), written in [Python 3](https://www.python.org/).
  Hosted by [Digital Ocean](https://www.digitalocean.com/) and powered by [NGINX](http://nginx.org/).
  Please [report inaccuracies](https://github.com/pierre-24/pierrebeaujean.net/issues)."
 
