@@ -8,9 +8,6 @@ HTML_DOC_DIR="pages"
 git config --global user.email "travis@travis-ci.org"
 git config --global user.name "travis-ci"
 
-# make doc
-make gen
-
 # push doc
 git add $HTML_DOC_DIR -f
 git commit -m "Deploy"
