@@ -1,7 +1,7 @@
 owner: 'Pierre Beaujean'
 lang: 'en'
 
-now: "This page was generated on %B, %d %Y."
+now: "This page was generated on %B %d, %Y."
 
 footer: "Made by Pierre Beaujean.
  Static website by [`static_resume`](https://github.com/pierre-24/static_resume), written in [Python 3](https://www.python.org/).
@@ -17,16 +17,16 @@ heading:
   email: 'pierre.beaujean@unamur.be'
   twitter: 'PierreBeaujean'
   find_me:
-    github:
+    Github:
       link: 'https://github.com/pierre-24'
       icon: 'fab fa-github-alt'
-    researchgate:
+    ResearchGate:
       link: 'https://www.researchgate.net/profile/Pierre_Beaujean'
       icon: 'fab fa-researchgate'
-    orcid:
+    Orcid:
       link: 'http://orcid.org/0000-0003-3723-3257'
       icon: 'ai ai-orcid'
-    scopus:
+    Scopus:
       link: 'https://www.scopus.com/authid/detail.uri?authorId=57195713289'
       icon: 'ai ai-springer'
 
