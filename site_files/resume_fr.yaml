@@ -12,7 +12,7 @@ heading:
   text: "# Salut ! *Je suis Pierre Beaujean*
 
   Je suis doctorant (dans le domaine de la chimie quantique, et plus précisément de l'**optique non-linéaire**) et assistant dans le [laboratoire du professeur Benoît Champagne](https://www.unamur.be/en/sci/chemistry/lct), à l'[Université de Namur](https://www.unamur.be/) (en Belgique) ou j'ai également commencé un [bachelier en informatique](https://directory.unamur.be/teaching/programmes/870B).
-  urant mes temps libres, quand je ne suis pas en train de lire, voyager à vélo, à la piscine ou à partager une bière en terrasse avec mes amis, je suis impliqué sur [Zeste de Savoir](https://zestedesavoir.com/), un site de partage de connaissances."
+  Durant mes temps libres, quand je ne suis pas en train de lire, voyager à vélo, à la piscine ou à partager une bière en terrasse avec mes amis, je suis impliqué sur [Zeste de Savoir](https://zestedesavoir.com/), un site de partage de connaissances."
   picture: 'assets/me.jpg'
   email: 'pierre.beaujean@unamur.be'
   twitter: 'PierreBeaujean'
@@ -130,6 +130,7 @@ interests:
     - name: "Programmation (2011 à aujourd'hui)"
       text: "développement de différents codes pour extraire et interpréter les données issues de résultats de calculs, et écrit durant mon mémoire et mon doctorat.
       Depuis 2014, contributions régulières au code de [Zeste de Savoir](https://zestedesavoir.com/), une plateforme de partage des connaissances et écrite en python.
+
 
     Depuis septembre 2017, j'ai débuté un bachelier en informatique en cours du soir pour améliorer mes compétences."
     - name: "Coach scolaire (2011-2015)"
