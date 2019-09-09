@@ -1,7 +1,7 @@
 owner: 'Pierre Beaujean'
 lang: 'fr'
 
-now: 'Généré le %d/%m/%Y.'
+now: 'Page générée le %d/%m/%Y.'
 
 footer: 'Par Pierre Beaujean.
  Site statique généré par [`static_resume`](https://github.com/pierre-24/static_resume) en [Python 3](https://www.python.org/).
