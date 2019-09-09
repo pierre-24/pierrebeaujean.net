@@ -29,6 +29,9 @@ heading:
     Scopus:
       link: 'https://www.scopus.com/authid/detail.uri?authorId=57195713289'
       icon: 'ai ai-springer'
+    Linkedin:
+      link: 'https://www.linkedin.com/in/pierre-beaujean-026062100/'
+      icon: 'fab fa-linkedin-in'
 
 research_topics:
   title: "Recherches"

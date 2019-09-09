@@ -25,9 +25,9 @@ def proc_heading(key: str, values: dict) -> dict:
         '<h4>Twitter</h4><p><a href="https://twitter.com/{1}">@{1}</a></p>' \
         '</div>'\
         '<span class="mail-and-twitter-small">' \
-        '<a href="mailto:{0}" title="mail" class="contact-link contact-link-mail">' \
+        '<a href="mailto:{0}" title="Email" class="contact-link contact-link-mail">' \
         '<span class="fas fa-envelope-open"></span></a>' \
-        '<a href="https://twitter.com/{1}" title="twitter" class="contact-link contact-link-twitter">' \
+        '<a href="https://twitter.com/{1}" title="Twitter" class="contact-link contact-link-twitter">' \
         '<span class="fab fa-twitter"></span></a>' \
         '</span><p>'.format(values['email'], values['twitter'])
 
