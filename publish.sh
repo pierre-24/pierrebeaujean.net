@@ -1,8 +1,18 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-echo 'publishing ...'
+NAME="pierre-24"
+REPO="pierrebeaujean.net"
+HTML_DOC_DIR="pages"
 
-eval $(ssh-agent -s)
-ssh-add <(echo "$DOC_PRIVATE_KEY")
-ssh-keyscan -t rsa $DOC_HOSTNAME > ~/.ssh/known_hosts
-scp -r ./pages/* $DOC_USER@$DOC_HOSTNAME:$DOC_LOCATION
+# config GIT
+git config --global user.email "travis@travis-ci.org"
+git config --global user.name "travis-ci"
+
+# make doc
+make gen
+
+# push doc
+git add $HTML_DOC_DIR -f
+git commit -m "Deploy"
+git subtree split --branch build_doc --prefix $HTML_DOC_DIR
+git push https://$NAME:$GITHUB_API_KEY@github.com/$NAME/$REPO build_doc:gh-pages -fq > /dev/null 2>&1

@@ -18,7 +18,7 @@
     "default": {
         "static-resume": {
             "git": "https://github.com/pierre-24/static_resume.git",
-            "ref": "108b5b86e80694242ce6436dcb18933a4eaf3c93"
+            "ref": "f2c9ea9334ca23ba66033835c2122d2b5a9f4173"
         }
     },
     "develop": {}

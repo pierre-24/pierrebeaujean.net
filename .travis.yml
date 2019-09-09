@@ -16,7 +16,6 @@ install:
   - make init
 
 script:
-  - make gen
   - |
     # upgrade doc, but only when pushing to "master" branch
     # if [[ "$TRAVIS_BRANCH" == "dev" ]] && [[ "$TRAVIS_PULL_REQUEST" == false ]]; then
