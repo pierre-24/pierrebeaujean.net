@@ -89,6 +89,7 @@ skills:
         Gaussian: 4
         GAMESS: 3
         Dalton: 2
+        xTB: 2
         Avogadro: 4
         Chemcraft: 3
     - name: 'QM methods'
@@ -102,10 +103,10 @@ skills:
       values:
         Python: 4
         C: 3
-        Java: 2
+        Java: 3
         Bash: 3
         SQL: 2
-        Javascript: 1
+        Javascript: 2
         HTML and CSS: 3
       post: 'Most of my codes are written in python 3, with the [scipy](https://scipy.org/) stack.'
     - name: 'Visualisation and writing'
@@ -113,7 +114,7 @@ skills:
         LaTeX: 4
         GNUPLOT: 3
         ChemDraw: 4
-        LibreOffice: 3
+        LibreOffice: 4
         Microsoft Office: 3
       post: 'Comfortable with oral and writing communications in **French** (native) and **English**.'
     - name: 'Others'
@@ -130,7 +131,7 @@ interests:
     - name: "Computer programing (2011 to today)"
       text: "development of many codes to extract and interpret data from calculation results, written during my master and Ph.D. thesis. Since 2014, regular contributions to the code of [Zeste de Savoir](https://zestedesavoir.com/), a knowledge-sharing platform written in Python.
 
-      In September 2017, I started a bachelor in computer science in evening classes to improve my skills. I got it in June 2020."
+      In September 2017, I started a bachelor in computer science in evening classes to improve my skills. I got it with honnors in June 2020."
     - name: "Private school coach (2011-2015)"
       text: "school coach in chemistry, biology, physics and mathematics."
     - name: "Scout and summer camp leadership (2008-2014)"
@@ -142,7 +143,7 @@ experiences:
   title: "Experiences"
   list:
     - when: "June 2020"
-      what: "Getting my **Bachelor's Degree in Computer Science** (University of Namur, Belgium)"
+      what: "Getting my **Bachelor's Degree in Computer Science**, with honnors (University of Namur, Belgium)"
     - when: "September 2019"
       what: "**15 minutes talk** at the [EUCO 2019](https://gefam.org/2018/10/30/computational-theoretical-chemistry-euco-2019-conference-perugia-italy-september-1-5-2019/) on *Evaluating the electronic and vibrational contributions to second and third harmonic scattering responses* (Perugia, Italy)"
     - when: "End of September 2018"
