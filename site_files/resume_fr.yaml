@@ -89,6 +89,7 @@ skills:
         Gaussian: 4
         GAMESS: 3
         Dalton: 2
+        xTB: 2
         Avogadro: 4
         Chemcraft: 3
     - name: 'Méthodes de chimie quantique'
@@ -102,10 +103,10 @@ skills:
       values:
         Python: 4
         C: 3
-        Java: 2
+        Java: 3
         Bash: 3
         SQL: 2
-        Javascript: 1
+        Javascript: 2
         HTML et CSS: 3
       post: "La plupart de mes codes sont écrit en python 3, à l'aide de [scipy](https://scipy.org/)."
     - name: "Outils d'écriture et de visualisation"
@@ -113,7 +114,7 @@ skills:
         LaTeX: 4
         GNUPLOT: 3
         ChemDraw: 4
-        LibreOffice: 3
+        LibreOffice: 4
         Microsoft Office: 3
       post: "À l'aise dans les communications orales et écrites en **français** (langue natale) et en **anglais**."
     - name: 'Autres'
@@ -143,7 +144,7 @@ experiences:
   title: "Parcours et expériences"
   list:
     - when: "Juin 2020"
-      what: "Obtention de mon **Bachelier en Sciences Informatiques**, en cours du soir (Université de Namur, Belgique)"
+      what: "Obtention de mon **Bachelier en Sciences Informatiques** avec grande distinction, en cours du soir (Université de Namur, Belgique)"
     - when: "Septembre 2019"
       what: "**Présentation de 15 minutes** à l'[EUCO 2019](https://gefam.org/2018/10/30/computational-theoretical-chemistry-euco-2019-conference-perugia-italy-september-1-5-2019/) sur le sujet *Evaluating the electronic and vibrational contributions to second and third harmonic scattering responses* (Perugia, Italie)"
     - when: "Fin septembre 2018"
