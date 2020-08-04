@@ -45,6 +45,13 @@ research_topics:
 publications:
   title: "My publications"
   list:
+    - authors: "L. Lescos, S. P. Sitkiewicz, P. Beaujean, M. Blanchard-Desce, B. Champagne, E. Matito and F. Castet"
+      title: "Performance of DFT functionals for calculating the second-order nonlinear optical properties of dipolar merocyanines"
+      journal: "Phys. Chem. Chem. Phys."
+      volume: 22
+      page: 16579
+      year: 2020
+      doi: '10.1039/D0CP02992K'
     - authors: "P. Beaujean and B. Champagne"
       title: "Coupled cluster investigation of the vibrational and electronic second and third harmonic scattering hyperpolarizabilities of the water molecule"
       journal: "J. Chem. Phys."
@@ -137,7 +144,7 @@ interests:
     - name: "Scout and summer camp leadership (2008-2014)"
       text: "own a diploma of child animation capacity (BACV) obtained in 2011."
     - name: "Others"
-      text: "Photography, swimming, reading, writing, coding, cooking, working in an international environment, *cuddling my fluffy cat* (check [Twitter](https://twitter.com/PierreBeaujean/status/1159389733719543808))."
+      text: "Photography, swimming, reading, writing, coding, cooking, working in an international environment, cuddling [my *fluffy* cat](https://twitter.com/StuffLePotichat)."
 
 experiences:
   title: "Experiences"
