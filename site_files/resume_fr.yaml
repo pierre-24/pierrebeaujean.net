@@ -45,6 +45,13 @@ research_topics:
 publications:
   title: "Mes publications"
   list:
+    - authors: "L. Lescos, S. P. Sitkiewicz, P. Beaujean, M. Blanchard-Desce, B. Champagne, E. Matito et F. Castet"
+      title: "Performance of DFT functionals for calculating the second-order nonlinear optical properties of dipolar merocyanines"
+      journal: "Phys. Chem. Chem. Phys."
+      volume: 22
+      page: 16579
+      year: 2020
+      doi: '10.1039/D0CP02992K'
     - authors: "P. Beaujean et B. Champagne"
       title: "Coupled cluster investigation of the vibrational and electronic second and third harmonic scattering hyperpolarizabilities of the water molecule"
       journal: "J. Chem. Phys."
@@ -89,6 +96,7 @@ skills:
         Gaussian: 4
         GAMESS: 3
         Dalton: 2
+        xTB: 2
         Avogadro: 4
         Chemcraft: 3
     - name: 'Méthodes de chimie quantique'
@@ -102,10 +110,10 @@ skills:
       values:
         Python: 4
         C: 3
-        Java: 2
+        Java: 3
         Bash: 3
         SQL: 2
-        Javascript: 1
+        Javascript: 2
         HTML et CSS: 3
       post: "La plupart de mes codes sont écrit en python 3, à l'aide de [scipy](https://scipy.org/)."
     - name: "Outils d'écriture et de visualisation"
@@ -113,7 +121,7 @@ skills:
         LaTeX: 4
         GNUPLOT: 3
         ChemDraw: 4
-        LibreOffice: 3
+        LibreOffice: 4
         Microsoft Office: 3
       post: "À l'aise dans les communications orales et écrites en **français** (langue natale) et en **anglais**."
     - name: 'Autres'
@@ -123,7 +131,7 @@ skills:
       Bonne maîtrise des systèmes d’exploitation de type UNIX (Linux, Mac OSX) ainsi que Microsoft Windows.'
 
 interests:
-  title: "Activities and interests"
+  title: "Activités et intérêts"
   list:
     - name: "Assistanat (2015 à aujourd'hui)"
       text: "séances d'exercices et de travaux pratiques en chimie générale (première année en sciences), mathématiques (deuxième année en chimie, équations différentielles, algèbre linéaire et théorie des groupes) et chimie quantique (troisième et quatrième année en chimie, travaux pratiques avec GAMESS)."
@@ -131,19 +139,19 @@ interests:
       text: "développement de différents codes pour extraire et interpréter les données issues de résultats de calculs, et écrit durant mon mémoire et mon doctorat.
       Depuis 2014, contributions régulières au code de [Zeste de Savoir](https://zestedesavoir.com/), une plateforme de partage des connaissances et écrite en python.
 
-    En septembre 2017, j'ai débuté un bachelier en informatique en cours du soir pour améliorer mes compétences, que j'ai obtenu en juin 2020, après un parcours sans fautes."
+    En septembre 2017, j'ai débuté un bachelier en informatique en cours du soir pour améliorer mes compétences, que j'ai obtenu en juin 2020 avec grande distinction, après un parcours sans fautes."
     - name: "Coach scolaire (2011-2015)"
       text: " professeur particulier en chimie, physique, biologie et mathématiques."
     - name: "Animateur de plaine de vacances (2008-2014)"
       text: "Animateur scout et de plaines de vacances, en possession de son brevet d'animateur de centre de vacances (BACV), obtenu en 2011."
     - name: "Autres"
-      text: "photographie, natation, lecture, écriture, programmation, cuisine, travail dans un environnement international, câliner mon chat. (allez voir sur [Twitter](https://twitter.com/PierreBeaujean/status/1159389733719543808))."
+      text: "photographie, natation, lecture, écriture, programmation, cuisine, travail dans un environnement international, câliner [mon chat](https://twitter.com/StuffLePotichat)."
 
 experiences:
   title: "Parcours et expériences"
   list:
     - when: "Juin 2020"
-      what: "Obtention de mon **Bachelier en Sciences Informatiques**, en cours du soir (Université de Namur, Belgique)"
+      what: "Obtention de mon **Bachelier en Sciences Informatiques** avec grande distinction, en cours du soir (Université de Namur, Belgique)"
     - when: "Septembre 2019"
       what: "**Présentation de 15 minutes** à l'[EUCO 2019](https://gefam.org/2018/10/30/computational-theoretical-chemistry-euco-2019-conference-perugia-italy-september-1-5-2019/) sur le sujet *Evaluating the electronic and vibrational contributions to second and third harmonic scattering responses* (Perugia, Italie)"
     - when: "Fin septembre 2018"
@@ -177,7 +185,7 @@ ZdS:
     - "[Comprendre les paramètres en photographie](https://zestedesavoir.com/billets/3537/comprendre-les-parametres-en-photographie/) (billet, publié le 26 avril 2020)."
     - "[La fameuse directive Copyright Européenne](https://zestedesavoir.com//billets/2942/la-fameuse-directive-copyright-europeenne/) (billet, publié le 15 décembre 2018)."
     - "[Joyeux jour de la mole !](https://zestedesavoir.com/billets/2875/joyeux-jour-de-la-mole/) (billet, publié le 23 octobre 2018)."
-    - "[De la logique aux processeurs](https://zestedesavoir.com//tutoriels/2256/de-la-logique-aux-processeurs/) (tutoriel, publié en octobre 2018)."
+    - "[De la logique aux processeurs](https://zestedesavoir.com/tutoriels/2256/de-la-logique-aux-processeurs/) (tutoriel, publié en octobre 2018)."
     - "[Ô Belgique, ô ...](https://zestedesavoir.com/articles/2695/o-belgique-o-1/) (article, publié  en juillet 2018)."
     - "[Vis ma vie: le doctorat](https://zestedesavoir.com/billets/1982/vis-ma-vie-le-doctorat/) (billet, publié en juin 2017)."
     - "[Cancer: entre recherches et espoirs](https://zestedesavoir.com/articles/188/cancer-entre-recherches-et-espoirs/) (article, publié en mai 2016)."
