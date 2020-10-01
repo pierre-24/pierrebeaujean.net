@@ -12,7 +12,7 @@ heading:
   text: "# Hi! *I'm Pierre Beaujean*
 
   I'm a Ph.D. student (in the field of quantum chemistry, more specifically **nonlinear optics**) and teaching assistant in [the laboratory of Professor Benoît Champagne](https://www.unamur.be/en/sci/chemistry/lct), in the [University of Namur](https://www.unamur.be/) (in Belgium) where I also obtained a [bachelor in Computer Science](https://directory.unamur.be/teaching/programmes/870B?_LOCALE_=en).
-  During my free times, when I'm not reading, swimming, biking, or enjoying a beer with my friends, I'm involved in [Zeste de Savoir](https://zestedesavoir.com/), a French website for knowledges sharing. "
+  During my free times, I like to [shoot photos](https://pics.pierrebeaujean.net), read, code, bike, or enjoy a beer with my friends ;)"
   picture: 'assets/me.jpg'
   email: 'pierre.beaujean@unamur.be'
   twitter: 'PierreBeaujean'
@@ -28,7 +28,7 @@ heading:
       icon: 'ai ai-orcid'
     Scopus:
       link: 'https://www.scopus.com/authid/detail.uri?authorId=57195713289'
-      icon: 'ai ai-springer'
+      icon: 'ai ai-elsevier'
     Linkedin:
       link: 'https://www.linkedin.com/in/pierre-beaujean-026062100/'
       icon: 'fab fa-linkedin-in'
@@ -145,13 +145,13 @@ interests:
     - name: "Computer programing (2011 to today)"
       text: "development of many codes to extract and interpret data from calculation results, written during my master and Ph.D. thesis. Since 2014, regular contributions to the code of [Zeste de Savoir](https://zestedesavoir.com/), a knowledge-sharing platform written in Python.
 
-      In September 2017, I started a bachelor in computer science in evening classes to improve my skills. I got it with honnors in June 2020."
+      In September 2017, I started a bachelor in computer science in evening classes to improve my skills. I got it, with honnors, in June 2020."
     - name: "Private school coach (2011-2015)"
       text: "school coach in chemistry, biology, physics and mathematics."
     - name: "Scout and summer camp leadership (2008-2014)"
       text: "own a diploma of child animation capacity (BACV) obtained in 2011."
     - name: "Others"
-      text: "Photography, swimming, reading, writing, coding, cooking, working in an international environment, cuddling [my *fluffy* cat](https://twitter.com/StuffLePotichat)."
+      text: "Photography ([check there](https://pics.pierrebeaujean.net)), swimming, reading, writing, coding, cooking, working in an international environment, cuddling [my *fluffy* cat](https://twitter.com/StuffLePotichat)."
 
 experiences:
   title: "Experiences"
