@@ -66,6 +66,13 @@ publications:
       page: 50
       year: 2018
       doi: '10.1007/s00214-018-2219-y'
+    - authors: "B. Champagne, P. Beaujean, M. de Wergifosse, M. H. Cardenuto, V. Liégeois et F. Castet"
+      title: "Quantum Chemical Methods for Predicting and Interpreting Second-Order Nonlinear Optical Properties: From Small to Extended π-Conjugated Molecules"
+      journal: "Frontiers of Quantum Chemistry"
+      volume: 6
+      page: 117
+      year: 2018
+      doi: '10.1007/978-981-10-5651-2_6'
     - authors: "P. Beaujean et B. Champagne"
       title: "Coupled cluster evaluation of the frequency dispersion of the first and second hyperpolarizabilities of water, methanol, and dimethyl ether"
       journal: "J. Chem. Phys."
