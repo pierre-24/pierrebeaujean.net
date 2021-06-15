@@ -32,6 +32,9 @@ heading:
     Linkedin:
       link: 'https://www.linkedin.com/in/pierre-beaujean-026062100/'
       icon: 'fab fa-linkedin-in'
+    Google Scholar:
+      link: 'https://scholar.google.com/citations?user=6SPNktQAAAAJ'
+      icon: 'fab fa-google'
 
 research_topics:
   title: "Recherches"
