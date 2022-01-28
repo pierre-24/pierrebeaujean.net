@@ -1,3 +1,6 @@
 jinja2
 markdown
 pyyaml
+flake8
+flake8-quotes
+autopep8
