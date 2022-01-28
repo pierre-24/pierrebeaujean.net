@@ -1,0 +1,9 @@
+
+{% for pub in publications %}
+    <p>
+    {% for a in pub.authors %}{{ a }}, {% endfor %}
+    <u>{{ pub.title }}</u>.
+    <i>{{ pub.journal }}</i>
+    <b>{{ pub.year }}</b>, <i>{{ pub.volume }}</i>, {{ pub.page }} (<a href="https://dx.doi.org/{{ pub.doi }}">{{ pub.doi }}</a>).
+    </p>
+{% endfor %}

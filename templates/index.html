@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block employment %}
+    <h2>Current status</h2>
+    {{ employment }}
+{% endblock %}
+
+{% block interests %}
+    <h2>Activities and interests</h2>
+    {{ interests }}
+{% endblock %}
+
+{% block publications %}
+    {% if publications %}
+    <h2>My publications</h2>
+    {% include "publications.inc.html" %}
+    {% endif %}
+{% endblock %}
+
+{% block skills %}
+    <h2>My skills</h2>
+    {% for category in skills %}
+        <h3>{{ category.name }}</h3>
+        {% if category.topics %}
+            <div class="d-flex flex-wrap">
+        {% for k,v in category.topics.items() %}
+            <div class="me-3 my-1 px-2" style="border: 1px solid #ddd; border-radius: 6px; background: #eee">{{ k }}
+            {% for i in range(3) %}
+                {% if i < v %}
+                <span style="display: inline-block; width: 12px; height: 12px; background: #999;"></span>
+                {% else %}
+                <span style="display: inline-block; width: 12px; height: 12px; border: 1px solid #999;"></span>
+                {% endif %}
+            {% endfor %}
+            </div>
+        {% endfor %}
+            </div>
+        {% endif %}
+        {% if category.extra %}
+        <p class="mt">{{ category.extra|markdown }}</p>
+        {% endif %}
+    {% endfor %}
+{% endblock %}
+
+{% block pathway %}
+    <h2>My experiences</h2>
+    <ul>
+    {% for experience in pathway %}
+        <li>
+            <h3>{{ experience.when }}</h3>
+            {{ experience.what|markdown }}
+        </li>
+    {% endfor %}
+    </ul>
+{% endblock %}

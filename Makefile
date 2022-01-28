@@ -9,6 +9,8 @@ help:
 init:
 	pip-sync
 
+lint:
+	flake8 static_website gen.py --max-line-length=120 --ignore=N802
+
 gen:
-	export RESUME_LANG="en"; generate_page conf.py -r
-	export RESUME_LANG="fr"; generate_page conf.py
+	python3 ./gen.py
