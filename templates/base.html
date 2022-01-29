@@ -7,73 +7,81 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+      <link rel="stylesheet" href="style.css">
   </head>
   <body{% block body_attribs %}{% endblock body_attribs %}>
 
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">CV @ {{ name }}</a>
-
-            <!-- Languages -->
-            <ul class="navbar-nav">
-                {%  if lang != 'en' %}<li class="nav-item"><a class="nav-link" href="index.html">🇬🇧</a></li>{% endif %}
-                {%  if lang != 'fr' %}<li><a class="nav-link" href="fr.html">🇫🇷</a></li>{% endif %}
-            </ul>
+            <!-- collapse: -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- menu (collapsed): -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    {% block navbar %}{% endblock %}
+                    <!-- Languages -->
+                    {%  if lang != 'en' %}<li class="nav-item"><a class="nav-link" href="index.html">🇬🇧</a></li>{% endif %}
+                    {%  if lang != 'fr' %}<li class="nav-item"><a class="nav-link" href="fr.html">🇫🇷</a></li>{% endif %}
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <div class="p-3 mb-4 bg-light rounded-3">
+    <div id="head" class="p-3 mb-4 bg-light rounded-3">
       <div class="container py-3">
         <div class="row align-items-start">
-            <div class="col-3" id="profile-pic">
-                <img src="me.jpg" alt="me" style="width: 260px; height: 260px">
+            <div class="col-lg-3 d-none d-lg-block" id="presentation-pic">
+                <img src="me.jpg" alt="A picture of me">
             </div>
-            <div class="col-6" id="presentation-text">
+            <div class="col-lg-6 col-md-12 pe-lg-4" id="presentation-text">
                 {{ introduction }}
             </div>
-            <div class="col-3" id="contact-info">
-                <div class="contact-large">
-                {% if email_address %}<h4>Email</h4><a href="mailto:{{ email_address }}">{{ email_address }}</a>{% endif %}
-                {% if accounts.twitter %}<h4>Twitter</h4><a href="https://twitter.com/{{ accounts.twitter }}">@{{ accounts.twitter }}</a>{% endif %}
-                {% if accounts.orcid %}<h4>ORCID</h4><a href="https://orcid.org/{{ accounts.orcid }}">{{ accounts.orcid }}</a>{% endif %}
+            <div class="col-lg-3 col-md-12 px-lg-4 py-lg-2" id="presentation-contact">
+                <div class="contact-large d-none d-lg-block">
+                {% if email_address %}<h4>Email</h4><p><a href="mailto:{{ email_address }}">{{ email_address }}</a></p>{% endif %}
+                    {% if accounts.twitter %}<h4>Twitter</h4><p><a href="https://twitter.com/{{ accounts.twitter }}">@{{ accounts.twitter }}</a></p>{% endif %}
+                {% if accounts.orcid %}<h4>ORCID</h4><p><a href="https://orcid.org/{{ accounts.orcid }}">{{ accounts.orcid }}</a></p>{% endif %}
                 </div>
-                <p>
-                    <div class="contact-small">
-                        {% if email_address %}<a href="mailto:{{ email_address }}"><span class="fas fa-envelope-open"></span></a>{% endif %}
-                        {% if accounts.twitter %}<a href="https://twitter.com/{{ accounts.twitter }}"><span class="fab fa-twitter"></span></a>{% endif %}
-                        {% if accounts.orcid %}<a href="https://orcid.org/{{ accounts.orcid }}"><span class="ai ai-orcid"></span></a>{% endif %}
+                <div class="icons mt-2">
+                    <div class="contact-small d-inline d-lg-none">
+                        {% if email_address %}<a href="mailto:{{ email_address }}" title="email"><span class="fas fa-envelope-open"></span></a>{% endif %}
+                        {% if accounts.twitter %}<a href="https://twitter.com/{{ accounts.twitter }}" title="Twitter"><span class="fab fa-twitter"></span></a>{% endif %}
+                        {% if accounts.orcid %}<a href="https://orcid.org/{{ accounts.orcid }}" title="ORCID"><span class="ai ai-orcid"></span></a>{% endif %}
                     </div>
-                    {% if accounts.linkedin %}<a href="https://www.linkedin.com/in/{{ accounts.linkedin }}"><span class="fab fa-linkedin-in"></span></a>{% endif %}
-                    {% if accounts.researchgate %}<a href="https://www.researchgate.net/profile/{{ accounts.researchgate}}"><span class="fab fa-researchgate"></span></a>{% endif %}
-                    {% if accounts.scopus %}<a href="https://www.scopus.com/authid/detail.uri?authorId={{ accounts.scopus}}"><span class="ai ai-scopus"></span></a>{% endif %}
-                    {% if accounts.ggscholar %}<a href="https://scholar.google.com/citations?user={{ accounts.ggscholar}}"><span class="ai ai-google-scholar"></span></a>{% endif %}
-                    {% if accounts.github %}<a href="https://github.com/{{ accounts.github }}"><span class="fab fa-github-alt"></span></a>{% endif %}
-                </p>
+                    {% if accounts.linkedin %}<a href="https://www.linkedin.com/in/{{ accounts.linkedin }}" title="LinkedIn"><span class="fab fa-linkedin-in"></span></a>{% endif %}
+                    {% if accounts.researchgate %}<a href="https://www.researchgate.net/profile/{{ accounts.researchgate}}" title="ResearchGate"><span class="fab fa-researchgate"></span></a>{% endif %}
+                    {% if accounts.scopus %}<a href="https://www.scopus.com/authid/detail.uri?authorId={{ accounts.scopus}}" title="Scopus"><span class="ai ai-scopus"></span></a>{% endif %}
+                    {% if accounts.ggscholar %}<a href="https://scholar.google.com/citations?user={{ accounts.ggscholar}}" title="Google Scholar"><span class="ai ai-google-scholar"></span></a>{% endif %}
+                    {% if accounts.github %}<a href="https://github.com/{{ accounts.github }}"><span class="fab fa-github-alt" title="Github"></span></a>{% endif %}
+                </div>
             </div>
         </div>
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="content">
         <div class="row align-items-start">
-            <div class="col-6" id="left-side">
-                {% block employment %}{% endblock %}
-                {% block publications %}{% endblock %}
-                {% block mediation %}{% endblock %}
-                {% block skills %}{% endblock %}
+            <div class="col-lg-6 col-sm-12" id="row-left">
+                <div id="bl-employment">{% block employment %}{% endblock %}</div>
+                <div id="bl-publications">{% block publications %}{% endblock %}</div>
+                <div id="bl-mediation">{% block mediation %}{% endblock %}</div>
+                <div id="bl-skills">{% block skills %}{% endblock %}</div>
             </div>
-            <div class="col-6" id="right-side">
-                {% block interests %}{% endblock %}
-                {% block pathway %}{% endblock %}
+            <div class="col-lg-6 col-md-12" id="row-right">
+                <div id="bl-interests">{% block interests %}{% endblock %}</div>
+                <div id="bl-pathway">{% block pathway %}{% endblock %}</div>
             </div>
 
         </div>
     </div>
 
 
-    <footer>
+    <footer class="bg-light py-2">
         <div class="container">
-            <p>&copy; {{ name }}.</p>
+            <p>&copy; {{ name }}</p>
             {{ footer }}
             <p>{{ build_context }} <a href="https://track.pierrebeaujean.net/"><img src="https://track.pierrebeaujean.net/tr/pierrebeaujean.net/image.png" alt="statistics" /></a></p>
         </div>
@@ -82,5 +90,16 @@
     <!-- scripts: -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/05ac4d5efb.js"></script>
+
+  <script>
+      document.querySelectorAll('h2').forEach($e => {
+          let $link = document.createElement('a');
+          $link.innerText = '#';
+          $link.href= `#${$e.id}`;
+          $link.classList.add('anchor')
+
+          $e.appendChild($link);
+      });
+  </script>
   </body>
 </html>

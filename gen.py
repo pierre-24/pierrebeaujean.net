@@ -5,7 +5,7 @@ from datetime import datetime
 import jinja2
 import markdown
 
-from static_website import base
+from static_website import base, custom
 
 
 def markdown_filter(txt) -> str:
@@ -57,7 +57,8 @@ def main():
     ], env, build_dir / 'fr.html').generate()
 
     # assets
-    base.Asset(pathlib.Path('src/assets/me.jpg'), build_dir / 'me.jpg').generate()
+    base.Asset(pathlib.Path('./src/assets/me.jpg'), build_dir / 'me.jpg').generate()
+    custom.ScssStylesheet(pathlib.Path('src/assets/style.scss'), build_dir / 'style.css').generate()
 
     # nojekyll
     base.NoJekyll(build_dir).generate()

@@ -1,6 +1,7 @@
 jinja2
 markdown
 pyyaml
+libsass
 flake8
 flake8-quotes
 autopep8

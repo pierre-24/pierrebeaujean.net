@@ -16,6 +16,8 @@ importlib-metadata==4.10.1
     # via markdown
 jinja2==3.0.3
     # via -r requirements.in
+libsass==0.21.0
+    # via -r requirements.in
 markdown==3.3.6
     # via -r requirements.in
 markupsafe==2.0.1
@@ -30,6 +32,8 @@ pyflakes==2.4.0
     # via flake8
 pyyaml==6.0
     # via -r requirements.in
+six==1.16.0
+    # via libsass
 toml==0.10.2
     # via autopep8
 zipp==3.7.0

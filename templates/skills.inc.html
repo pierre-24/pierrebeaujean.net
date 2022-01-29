@@ -1,0 +1,21 @@
+{% for category in skills %}
+    <h3>{{ category.name }}</h3>
+    {% if category.topics %}
+        <div class="d-flex flex-wrap">
+    {% for k,v in category.topics.items() %}
+        <div class="me-3 my-1 px-2 skill-pill bg-light">{{ k }}
+        {% for i in range(3) %}
+            {% if i < v %}
+            <span class="skill-s skill-o"></span>
+            {% else %}
+            <span class="skill-s skill-n"></span>
+            {% endif %}
+        {% endfor %}
+        </div>
+    {% endfor %}
+        </div>
+    {% endif %}
+    {% if category.extra %}
+    <p class="mt">{{ category.extra|markdown }}</p>
+    {% endif %}
+{% endfor %}

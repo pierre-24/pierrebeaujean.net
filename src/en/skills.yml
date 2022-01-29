@@ -4,19 +4,20 @@ skills:
       Gaussian: 3
       GAMESS: 2
       Dalton: 2
-      xTB: 2
+      xTB: 1
+      sTDA: 2
+    extra: 'I focused on the calculation of NLO properties, including with approximate methods such as [sTD-DFT](https://github.com/grimme-lab/stda).'
   - name: 'QM methods'
     topics:
       Hartree-Fock: 3
-      DFT: 3
+      DFT: 2
       Coupled Cluster: 2
-    extra: 'Used for the study (prediction and analysis) of molecular properties, through TDHF, TDDFT or response functions.'
+    extra: 'Used for the study (prediction and analysis) of molecular properties, through TDHF, TDDFT or (approximate) response functions.'
   - name: 'Programming'
     topics:
       Python: 3
       C: 2
-      OpenMP: 2
-      MPI: 2
+      OpenMP / MPI: 2
       Bash: 3
       Javascript: 1
       HTML and CSS: 2

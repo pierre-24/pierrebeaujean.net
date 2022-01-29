@@ -1,4 +1,4 @@
-**Computer programing (2011 to today):**
+**Computer programming (2011 to today):**
 Development of many codes to extract and interpret data from calculation results, written during my master and Ph.D. thesis. 
 Since 2014, regular contributions to the code of [Zeste de Savoir](https://zestedesavoir.com/), a knowledge-sharing platform written in Python.
 

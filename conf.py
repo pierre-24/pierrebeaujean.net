@@ -124,7 +124,7 @@ def proc_zds(key: str, value: dict) -> dict:
 CONFIG = {
     'DATA_FILE': 'site_files/resume_{}.yaml'.format(language),
     'TEMPLATE_FILE': 'site_files/template.html',
-    'STYLE_FILE': 'site_files/style.css',
+    'STYLE_FILE': 'site_files/style.scss',
     'ASSETS_DIR': 'site_files/assets',
     'OUTPUT_FILE': 'index.html' if language == DEFAULT_LANGUAGE else '{}.html'.format(language),
     'OUTPUT_DIR': 'pages/',
