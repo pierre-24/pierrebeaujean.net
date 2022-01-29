@@ -1,0 +1,2 @@
+Généré [par un code maison](https://github.com/pierre-24/pierrebeaujean.net) écrit en [Python 3](https://www.python.org/) 🐍 par Pierre Beaujean.
+[Dites moi s'il y a des erreurs](https://github.com/pierre-24/pierrebeaujean.net/issues)!

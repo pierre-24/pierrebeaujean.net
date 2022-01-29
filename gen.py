@@ -54,6 +54,14 @@ def main():
             'build_context': datetime.now().strftime('Page générée le %d/%m/%Y'),
             'lang': 'fr'
         }),
+        # specific context
+        base.MarkdownContext('introduction', pathlib.Path('src/fr/introduction.md')),
+        base.MarkdownContext('employment', pathlib.Path('src/fr/employment.md')),
+        base.YamlContext(pathlib.Path('./src/publications.yml')),
+        base.YamlContext(pathlib.Path('./src/fr/skills.yml')),
+        base.MarkdownContext('interests', pathlib.Path('src/fr/interests.md')),
+        base.YamlContext(pathlib.Path('./src/fr/pathway.yml')),
+        base.MarkdownContext('footer', pathlib.Path('src/fr/footer.md'))
     ], env, build_dir / 'fr.html').generate()
 
     # assets

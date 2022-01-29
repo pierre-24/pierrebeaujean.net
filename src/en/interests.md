@@ -15,4 +15,4 @@ school coach in chemistry, biology, physics and mathematics
 Own a diploma of child animation capacity (BACV) obtained in 2011.
 
 **Others:**
-Photography ([check there](https://pics.pierrebeaujean.net)), swimming, reading, writing, coding, cooking, working in an international environment, cuddling [my *fluffy* cat](https://twitter.com/PotichatBatida).
+Photography ([check there](https://pics.pierrebeaujean.net)), biking, climbing, swimming, reading, writing, coding, cooking, working in an international environment, cuddling [my *fluffy* cat](https://twitter.com/PotichatBatida).

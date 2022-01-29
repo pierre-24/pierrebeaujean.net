@@ -1,1 +1,40 @@
 {% extends "base.html" %}
+
+{% block navbar %}
+    <li class="nav-item"><a class="nav-link" href="#employment">Status</a></li>
+    <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+    <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
+    <li class="nav-item"><a class="nav-link" href="#interests">Interêts</a></li>
+    <li class="nav-item"><a class="nav-link" href="#pathway">Expériences</a></li>
+{% endblock %}
+
+{% block employment %}
+    <h2 id="employment">Status actuel</h2>
+    {{ employment }}
+{% endblock %}
+
+{% block interests %}
+    <h2 id="interests">Activités et intérêts</h2>
+    {{ interests }}
+{% endblock %}
+
+{% block publications %}
+    {% if publications %}
+    <h2 id="publications">Mes publications</h2>
+    {% include "publications.inc.html" %}
+    {% endif %}
+{% endblock %}
+
+{% block skills %}
+    {% if skills %}
+    <h2 id="skills">Mes compétences</h2>
+    {% include "skills.inc.html" %}
+    {% endif %}
+{% endblock %}
+
+{% block pathway %}
+    {% if pathway %}
+    <h2 id="pathway">Mes expériences</h2>
+    {% include "pathway.inc.html" %}
+    {% endif %}
+{% endblock %}
