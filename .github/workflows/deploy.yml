@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/setup-python@v2
       with:
-        python-version: 3.8
+        python-version: 3.9
     - uses: actions/checkout@master
       with:
         fetch-depth: 0
@@ -22,13 +22,7 @@ jobs:
         make init
     - name: Generate pages
       run: |
-        make gen
-        git checkout gh-pages
-        git rm -rf .
-        mv build/* .
-        rm -R build/
-        git add .
-        git commit -am "add change"
+        ./deploy.sh
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
