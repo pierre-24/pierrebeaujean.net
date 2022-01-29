@@ -3,6 +3,7 @@
 {% block navbar %}
     <li class="nav-item"><a class="nav-link" href="#employment">Status</a></li>
     <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+    <li class="nav-item"><a class="nav-link" href="#mediation">Médiation</a></li>
     <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
     <li class="nav-item"><a class="nav-link" href="#interests">Interêts</a></li>
     <li class="nav-item"><a class="nav-link" href="#pathway">Expériences</a></li>
@@ -36,5 +37,19 @@
     {% if pathway %}
     <h2 id="pathway">Mes expériences</h2>
     {% include "pathway.inc.html" %}
+    {% endif %}
+{% endblock %}
+
+{% block mediation %}
+    {% if mediation or zds %}
+        <h2 id="mediation">Activités de médiation</h2>
+        {{ mediation }}
+        {% if zds %}
+            <ul>
+            {% for activity in zds %}
+                <li><a href="https://zestedesavoir.com/{{ activity.type }}s/{{ activity.link }}">{{ activity.title }}</a> ({{ activity.type }}, publié en {{ activity.date }})</li>
+            {% endfor %}
+            </ul>
+        {% endif %}
     {% endif %}
 {% endblock %}

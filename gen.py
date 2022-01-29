@@ -58,6 +58,8 @@ def main():
         base.MarkdownContext('introduction', pathlib.Path('src/fr/introduction.md')),
         base.MarkdownContext('employment', pathlib.Path('src/fr/employment.md')),
         base.YamlContext(pathlib.Path('./src/publications.yml')),
+        base.MarkdownContext('mediation', pathlib.Path('src/fr/mediation.md')),
+        base.YamlContext(pathlib.Path('./src/fr/zds.yml')),
         base.YamlContext(pathlib.Path('./src/fr/skills.yml')),
         base.MarkdownContext('interests', pathlib.Path('src/fr/interests.md')),
         base.YamlContext(pathlib.Path('./src/fr/pathway.yml')),

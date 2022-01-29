@@ -1,0 +1,1 @@
+Travail de médiation scientifique sur [Zeste de Savoir](https://zestedesavoir.com) avec une aide régulière sur des questions de chimie dans [le forum correspondant](https://zestedesavoir.com/forums/savoirs/sciences/) et la publications de différents contenus.
