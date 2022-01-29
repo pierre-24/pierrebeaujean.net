@@ -1,83 +1,695 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Pierre Beaujean</title>
-    
+    <title>CV @ Pierre Beaujean</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-    <link href="style.css" rel="stylesheet">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.svg">
   </head>
   <body>
-    
-<nav role="navigation"  class="navbar navbar-default navbar-static-top-top">
-    <div class="container">
-        <div class="navbar-header">
-            <span class="navbar-brand">CV @ Pierre Beaujean</span>
-        </div>
 
-        <!-- Languages -->
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">EN</a></li>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">CV @ Pierre Beaujean</a>
+            <!-- collapse: -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- menu (collapsed): -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    
+    <li class="nav-item"><a class="nav-link" href="#employment">Status</a></li>
+    <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+    <li class="nav-item"><a class="nav-link" href="#mediation">Médiation</a></li>
+    <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
+    <li class="nav-item"><a class="nav-link" href="#interests">Interêts</a></li>
+    <li class="nav-item"><a class="nav-link" href="#pathway">Expériences</a></li>
+
+                    <!-- Languages -->
+                    <li class="nav-item"><a class="nav-link" href="index.html">🇬🇧</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="head" class="p-3 mb-4 bg-light rounded-3">
+      <div class="container py-3">
+        <div class="row align-items-start">
+            <div class="col-lg-3 d-none d-lg-block" id="presentation-pic">
+                <img src="me.jpg" alt="A picture of me">
+            </div>
+            <div class="col-lg-6 col-md-12 pe-lg-4" id="presentation-text">
+                <h1>Salut! <em>Moi c'est Pierre</em></h1>
+<p>Je suis docteur en chimie quantique (en particulier sur l'<strong>optique non-linéaire</strong>, obtenu en octobre 2021 à l'<a href="https://www.unamur.be/">université de Namur</a>).
+J'ai également obtenu récement (Juin 2020) un <a href="https://directory.unamur.be/teaching/programmes/870B">bachelier en informatique</a>.
+Actuellement, je suis embassadeur pour le <a href="https://www.enccb.be/">EuroCC NCC belge</a> pour dévelloper les compétences et sensibiliser le public.</p>
+<p>Durant mes temps libres, j'aime <a href="https://pics.pierrebeaujean.net">photographier</a> 📷, lire 📖, coder 🖥️, voyager à vélo 🚴‍♂️, escalader 🧗‍♂️, ou partager une bière 🍺 en terrasse avec des amis !</p>
+            </div>
+            <div class="col-lg-3 col-md-12 px-lg-4 py-lg-2" id="presentation-contact">
+                <div class="contact-large d-none d-lg-block">
+                <h4>Email</h4><p><a href="mailto:pierre.beaujean@unamur.be">pierre.beaujean@unamur.be</a></p>
+                    <h4>Twitter</h4><p><a href="https://twitter.com/PierreBeaujean">@PierreBeaujean</a></p>
+                <h4>ORCID</h4><p><a href="https://orcid.org/0000-0003-3723-3257">0000-0003-3723-3257</a></p>
+                </div>
+                <div class="icons mt-2">
+                    <div class="contact-small d-inline d-lg-none">
+                        <a href="mailto:pierre.beaujean@unamur.be" title="email"><span class="fas fa-envelope-open"></span></a>
+                        <a href="https://twitter.com/PierreBeaujean" title="Twitter"><span class="fab fa-twitter"></span></a>
+                        <a href="https://orcid.org/0000-0003-3723-3257" title="ORCID"><span class="ai ai-orcid"></span></a>
+                    </div>
+                    <a href="https://www.linkedin.com/in/pierre-beaujean" title="LinkedIn"><span class="fab fa-linkedin-in"></span></a>
+                    <a href="https://www.researchgate.net/profile/Pierre_Beaujean" title="ResearchGate"><span class="fab fa-researchgate"></span></a>
+                    <a href="https://www.scopus.com/authid/detail.uri?authorId=57195713289" title="Scopus"><span class="ai ai-scopus"></span></a>
+                    <a href="https://scholar.google.com/citations?user=6SPNktQAAAAJ" title="Google Scholar"><span class="ai ai-google-scholar"></span></a>
+                    <a href="https://github.com/pierre-24"><span class="fab fa-github-alt" title="Github"></span></a>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="content">
+        <div class="row align-items-start">
+            <div class="col-lg-6 col-sm-12" id="row-left">
+                <div id="bl-employment">
+    <h2 id="employment">Status actuel</h2>
+    <p>Je suis membre du <a href="https://www.enccb.be/">Centre National de Compétence (NCC) belge</a> en calcul intensif, développé via une initiative de l’Union européenne nommée <a href="https://www.eurocc-access.eu/">EuroCC</a>. 
+Celui-ci sert à favoriser les activités en matière de calcul (HPC), analyse de données (HPDA) à hautes performances et intelligence artificielle (AI) en Belgique. 
+Mon rôle est plus particulièrement de <strong>développer les compétences des (futurs) utilisateurs</strong> et de <strong>sensibiliser les différents publics à l’importance de tels outils</strong>.</p>
+<p>Auparavant, j'étais un asssitant dans le laboratoire du <a href="https://www.unamur.be/en/sci/chemistry/lct">Professeur Benoît Champagne</a>, où j'ai réalisé et obtenu <strong>Une thèse de doctorat dans le domaine de la chimie quantique</strong>.
+Elle s'intéressait plus particululièrement l'évaluation de la réponse optique non linéaire (ONL) de molécules ou de systèmes en phase gaz ou condensé. Elle inclut des calculs au niveau Hartree-Fock, DFT ou Coupled Cluster, pour l'évaluation des différentes contributions. µ
+Le travail a été mené en collaboration avec l'expérience, grâce à nos collaborateurs ou à la littérature.</p>
+</div>
+                <div id="bl-publications">
+    
+    <h2 id="publications">Mes publications</h2>
+    
+
+    <p>
+    <b>P. Beaujean</b>, B. Champagne, 
+    <u>Unraveling the Symmetry Effects on the Second-Order Nonlinear Optical Responses of Molecular Switches: The Case of Ruthenium Complexes</u>.
+    <i>Inorg. Chem.</i>
+    <b>2022</b>, <i>xxx</i>, xxx (<a href="https://dx.doi.org/10.1021/acs.inorgchem.1c03077">10.1021/acs.inorgchem.1c03077</a>).
+    </p>
+
+    <p>
+    <b>P. Beaujean</b>, B. Champagne, S.Grimme, M. de Wergifosse, 
+    <u>All-Atom Quantum Mechanical Calculation of the Second-Harmonic Generation of Fluorescent Proteins</u>.
+    <i>J. Phys. Chem. Lett.</i>
+    <b>2021</b>, <i>12</i>, 9684 (<a href="https://dx.doi.org/10.1021/acs.jpclett.1c02911">10.1021/acs.jpclett.1c02911</a>).
+    </p>
+
+    <p>
+    L. Lescos, <b>P. Beaujean</b>, C. Tonnelé, P. Aurel, M. Blanchard-Desce, V. Rodriguez, M. de Wergifosse, B. Champagne, L. Muccioli, F. Castet, 
+    <u>Self-assembling, structure and nonlinear optical properties of fluorescent organic nanoparticles in water</u>.
+    <i>Phys. Chem. Chem. Phys.</i>
+    <b>2021</b>, <i>23</i>, 23643 (<a href="https://dx.doi.org/10.1039/D1CP03741B">10.1039/D1CP03741B</a>).
+    </p>
+
+    <p>
+    J. Quertinmont, <b>P. Beaujean</b>, J. Stiennon, Y. Aidibi, P. Leriche, V. Rodriguez, L. Sanguinet, B. Champagne, 
+    <u>Combining Benzazolo-Oxazolidine Twins toward Multi-state Nonlinear Optical Switches</u>.
+    <i>J. Phys. Chem. B</i>
+    <b>2021</b>, <i>125</i>, 3918 (<a href="https://dx.doi.org/10.1021/acs.jpcb.1c01962">10.1021/acs.jpcb.1c01962</a>).
+    </p>
+
+    <p>
+    L. Lescos, S. P. Sitkiewicz, <b>P. Beaujean</b>, M. Blanchard-Desce, B. Champagne, E. Matito, F. Castet, 
+    <u>Performance of DFT functionals for calculating the second-order nonlinear optical properties of dipolar merocyanines</u>.
+    <i>Phys. Chem. Chem. Phys.</i>
+    <b>2020</b>, <i>22</i>, 16579 (<a href="https://dx.doi.org/10.1039/D0CP02992K">10.1039/D0CP02992K</a>).
+    </p>
+
+    <p>
+    <b>P. Beaujean</b>, B. Champagne, 
+    <u>Coupled cluster investigation of the vibrational and electronic second and third harmonic scattering hyperpolarizabilities of the water molecule</u>.
+    <i>J. Chem. Phys.</i>
+    <b>2019</b>, <i>151</i>, 064303 (<a href="https://dx.doi.org/10.1063/1.5110375">10.1063/1.5110375</a>).
+    </p>
+
+    <p>
+    B. Champagne, <b>P. Beaujean</b>, M. de Wergifosse, M. H. Cardenuto, V. Liégeois, F. Castet, 
+    <u>Quantum Chemical Methods for Predicting and Interpreting Second-Order Nonlinear Optical Properties: From Small to Extended π-Conjugated Molecules</u>.
+    <i>Frontiers of Quantum Chemistry</i>
+    <b>2018</b>, <i>6</i>, 117 (<a href="https://dx.doi.org/10.1007/978-981-10-5651-2_6">10.1007/978-981-10-5651-2_6</a>).
+    </p>
+
+    <p>
+    <b>P. Beaujean</b>, B. Champagne, 
+    <u>Coupled cluster evaluation of the second and third harmonic scattering responses of small molecules</u>.
+    <i>Theo. Chem. Acc.</i>
+    <b>2017</b>, <i>137</i>, 50 (<a href="https://dx.doi.org/10.1007/s00214-018-2219-y">10.1007/s00214-018-2219-y</a>).
+    </p>
+
+    <p>
+    <b>P. Beaujean</b>, B. Champagne, 
+    <u>Coupled cluster evaluation of the frequency dispersion of the first and second hyperpolarizabilities of water, methanol, and dimethyl ether</u>.
+    <i>J. Chem. Phys.</i>
+    <b>2016</b>, <i>145</i>, 044311 (<a href="https://dx.doi.org/10.1063/1.4958736">10.1063/1.4958736</a>).
+    </p>
+
+    <p>
+    <b>P. Beaujean</b>, F. Bondu, A. Plaquet, J. Garcia-Amoros, J. Cusido, F.M. Raymo, F. Castet, V. Rodriguez, B. Champagne, 
+    <u>Oxazines: A New Class Of Second-Order Nonlinear Optical Switches</u>.
+    <i>J. Am. Chem. Soc.</i>
+    <b>2016</b>, <i>138</i>, 5052 (<a href="https://dx.doi.org/10.1021/jacs.5b13243">10.1021/jacs.5b13243</a>).
+    </p>
+
+    <p>
+    <b>P. Beaujean</b>, M. Kertesz, 
+    <u>Helical molecular redox actuators with pancake bonds?</u>.
+    <i>Theor. Chem. Acc.</i>
+    <b>2015</b>, <i>134</i>, 147 (<a href="https://dx.doi.org/10.1007/s00214-015-1750-3">10.1007/s00214-015-1750-3</a>).
+    </p>
+
+    
+</div>
+                <div id="bl-mediation">
+    
+        <h2 id="mediation">Activités de médiation</h2>
+        <p>Travail de médiation scientifique sur <a href="https://zestedesavoir.com">Zeste de Savoir</a> avec une aide régulière sur des questions de chimie dans <a href="https://zestedesavoir.com/forums/savoirs/sciences/">le forum correspondant</a> et la publications de différents contenus.</p>
+        
+            <ul>
             
-        </ul>
-    </div>
-</nav>
+                <li><a href="https://zestedesavoir.com/billets/4011/0x5f3759df/">0x5f3759df</a> (billet, publié en août 2021)</li>
+            
+                <li><a href="https://zestedesavoir.com/tutoriels/3506/que-se-passe-t-il-lorsquon-fait-du-pain/">Que se passe-t-il lorsqu'on fait du pain ?</a> (tutoriel, publié en mai 2020)</li>
+            
+                <li><a href="https://zestedesavoir.com/billets/3537/comprendre-les-parametres-en-photographie/">Comprendre les paramètres en photographie</a> (billet, publié en avril 2020)</li>
+            
+                <li><a href="https://zestedesavoir.com/billets/2942/la-fameuse-directive-copyright-europeenne/">La fameuse directive Copyright Européenne</a> (billet, publié en décembre 2018)</li>
+            
+                <li><a href="https://zestedesavoir.com/billets/2875/joyeux-jour-de-la-mole/">Joyeux jour de la mole !</a> (billet, publié en octobre 2018)</li>
+            
+                <li><a href="https://zestedesavoir.com/tutoriels/2256/de-la-logique-aux-processeurs/">De la logique aux processeurs</a> (tutoriel, publié en octobre 2018)</li>
+            
+                <li><a href="https://zestedesavoir.com/articles/2695/o-belgique-o-1/">Ô Belgique, ô ...</a> (article, publié en juillet 2018)</li>
+            
+                <li><a href="https://zestedesavoir.com/billets/1982/vis-ma-vie-le-doctorat/">Vis ma vie: le doctorat</a> (billet, publié en juin 2017)</li>
+            
+                <li><a href="https://zestedesavoir.com/articles/188/cancer-entre-recherches-et-espoirs/">Cancer: entre recherches et espoirs</a> (article, publié en mai 2016)</li>
+            
+                <li><a href="https://zestedesavoir.com/articles/73/philae-a-la-recherche-de-lorigine-de-la-chiralite-du-monde/">Philae: à la recherche de l'origine de la chiralité du monde ?</a> (article, publié en mars 2015)</li>
+            
+                <li><a href="https://zestedesavoir.com/articles/196/interview-rencontre-avec-pierre-24/">Interview: recontre avec pierre_24</a> (article, publié en octobre 2015)</li>
+            
+                <li><a href="https://zestedesavoir.com/tutoriels/245/la-recherche-dinformations-sur-internet/">La recherche d'informations sur internet</a> (tutoriel, publié en juillet 2014)</li>
+            
+            </ul>
+        
+    
+</div>
+                <div id="bl-skills">
+    
+    <h2 id="skills">Mes compétences</h2>
+    
+    <h3>Codes de chimie quantique</h3>
+    
+        <div class="d-flex flex-wrap">
+    
+        <div class="me-3 my-1 px-2 skill-pill bg-light">Gaussian
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+        </div>
+    
+        <div class="me-3 my-1 px-2 skill-pill bg-light">GAMESS
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-n"></span>
+            
+        
+        </div>
+    
+        <div class="me-3 my-1 px-2 skill-pill bg-light">Dalton
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-n"></span>
+            
+        
+        </div>
+    
+        <div class="me-3 my-1 px-2 skill-pill bg-light">xTB
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-n"></span>
+            
+        
+            
+            <span class="skill-s skill-n"></span>
+            
+        
+        </div>
+    
+        <div class="me-3 my-1 px-2 skill-pill bg-light">sTDA
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-n"></span>
+            
+        
+        </div>
+    
+        </div>
+    
+    
+    <p class="mt"><p>Utilisé pour le calcul de propriétés ONL, y compris de manière approximée grâce à <a href="https://github.com/grimme-lab/stda">sTD-DFT</a>.</p></p>
+    
+
+    <h3>Méthodes de chimie quantique</h3>
+    
+        <div class="d-flex flex-wrap">
+    
+        <div class="me-3 my-1 px-2 skill-pill bg-light">Hartree-Fock
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+        </div>
+    
+        <div class="me-3 my-1 px-2 skill-pill bg-light">DFT
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-n"></span>
+            
+        
+        </div>
+    
+        <div class="me-3 my-1 px-2 skill-pill bg-light">Coupled Cluster
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-n"></span>
+            
+        
+        </div>
+    
+        </div>
+    
+    
+    <p class="mt"><p>Utilisées pour la prédiction et l'analyse des propriétés moléculaires, au travers des approches TDHF ou TDDFT, ou des fonctions réponses.</p></p>
+    
+
+    <h3>Programmation</h3>
+    
+        <div class="d-flex flex-wrap">
+    
+        <div class="me-3 my-1 px-2 skill-pill bg-light">Python
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+        </div>
+    
+        <div class="me-3 my-1 px-2 skill-pill bg-light">C
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-n"></span>
+            
+        
+        </div>
+    
+        <div class="me-3 my-1 px-2 skill-pill bg-light">OpenMP / MPI
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-n"></span>
+            
+        
+        </div>
+    
+        <div class="me-3 my-1 px-2 skill-pill bg-light">Bash
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+        </div>
+    
+        <div class="me-3 my-1 px-2 skill-pill bg-light">Javascript
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-n"></span>
+            
+        
+            
+            <span class="skill-s skill-n"></span>
+            
+        
+        </div>
+    
+        <div class="me-3 my-1 px-2 skill-pill bg-light">HTML and CSS
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-n"></span>
+            
+        
+        </div>
+    
+        </div>
+    
+    
+    <p class="mt"><p>La plupart de mes codes sont écrit en Python 3, à l'aide des outils de <a href="https://scipy.org/">scipy</a> stack.</p></p>
+    
+
+    <h3>Visualisation et écriture</h3>
+    
+        <div class="d-flex flex-wrap">
+    
+        <div class="me-3 my-1 px-2 skill-pill bg-light">LaTeX
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+        </div>
+    
+        <div class="me-3 my-1 px-2 skill-pill bg-light">GNUPLOT
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+        </div>
+    
+        <div class="me-3 my-1 px-2 skill-pill bg-light">ChemDraw
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+        </div>
+    
+        <div class="me-3 my-1 px-2 skill-pill bg-light">LibreOffice
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-n"></span>
+            
+        
+        </div>
+    
+        <div class="me-3 my-1 px-2 skill-pill bg-light">Microsoft Office
+        
+            
+            <span class="skill-s skill-o"></span>
+            
+        
+            
+            <span class="skill-s skill-n"></span>
+            
+        
+            
+            <span class="skill-s skill-n"></span>
+            
+        
+        </div>
+    
+        </div>
+    
+    
+    <p class="mt"><p>À l'aise dans les communications orales et écrites en <strong>français</strong> (langue natale) et en <strong>anglais</strong>.</p></p>
+    
+
+    <h3>Autres</h3>
+    
+    
+    <p class="mt"><p>Très bonne maîtrise de la chimie quantique, ainsi que de l’électrochimie, la chimie physique, biologique, inorganique, organique. Connaissances dans le domaine des mathématiques, de la théorie des groupes, de la physique et de la biologie.</p>
+<p>Bonne maîtrise des systèmes d’exploitation de type UNIX (Linux, Mac OSX) ainsi que Microsoft Windows</p></p>
+    
 
     
-    <div id="wrapper">
-        <div class="jumbotron">
-            <div class="container">
-                <div class="col-lg-3" id="presa-img"><img src="assets/me.jpg" alt="me" style="width: 260px; height: 260px"></div><div class="col-lg-6 col-md-12" id="presa-txt"><h1>Salut ! <em>Je suis Pierre Beaujean</em></h1>
-<p>Je suis doctorant (dans le domaine de la chimie quantique, et plus précisément de l'<strong>optique non-linéaire</strong>) et assistant dans le <a href="https://www.unamur.be/en/sci/chemistry/lct">laboratoire du professeur Benoît Champagne</a>, à l'<a href="https://www.unamur.be/">Université de Namur</a> (en Belgique) ou j'ai également obtenu un <a href="https://directory.unamur.be/teaching/programmes/870B">bachelier en informatique</a> en cours du soir. Durant mes temps libres, j'aime <a href="https://pics.pierrebeaujean.net">photographier</a>, coder, lire, voyager à vélo ou partager une bière en terrasse avec mes amis ;)</p></div><div class="col-lg-3 col-md-12" id="contacts"><div class="mail-and-twitter-large"><h4>Email</h4><p><a href="mailto:pierre.beaujean@unamur.be">pierre.beaujean@unamur.be</a></p><h4>Twitter</h4><p><a href="https://twitter.com/PierreBeaujean">@PierreBeaujean</a></p></div><span class="mail-and-twitter-small"><a href="mailto:pierre.beaujean@unamur.be" title="Email" class="contact-link contact-link-mail"><span class="fas fa-envelope-open"></span></a><a href="https://twitter.com/PierreBeaujean" title="Twitter" class="contact-link contact-link-twitter"><span class="fab fa-twitter"></span></a></span><p><a href="https://github.com/pierre-24" title="Github" class="contact-link contact-link-Github"><span class="fab fa-github-alt"></span></a><a href="https://www.researchgate.net/profile/Pierre_Beaujean" title="ResearchGate" class="contact-link contact-link-ResearchGate"><span class="fab fa-researchgate"></span></a><a href="http://orcid.org/0000-0003-3723-3257" title="Orcid" class="contact-link contact-link-Orcid"><span class="ai ai-orcid"></span></a><a href="https://www.scopus.com/authid/detail.uri?authorId=57195713289" title="Scopus" class="contact-link contact-link-Scopus"><span class="ai ai-elsevier"></span></a><a href="https://www.linkedin.com/in/pierre-beaujean-026062100/" title="Linkedin" class="contact-link contact-link-Linkedin"><span class="fab fa-linkedin-in"></span></a></p></div>
+</div>
             </div>
-        </div>
-        <div class="container">
-            <div class="col-md-6" id="left-side">
-                <div class="inner-block" id="research-topics">
-                    <h2><span class="fa fa-search" aria-hidden="true"></span> Recherches</h2><p><em>Dynamical nonlinear optical systems: a multiscale theoretical chemistry investigation</em>.</p>
-<p>Ma thèse de doctorat s'intéresse à l'évaluation de la réponse optique non linéaire de molécules ou de systèmes en phase gaz ou condensé. Elle inclut des calculs au niveau Hartree-Fock, DFT ou Coupled Cluster, pour l'évaluation des différentes contributions. Le travail est mené en collaboration avec l'expérience, grâce à nos collaborateurs ou à la littérature.</p>
-                </div>
-                <div class="inner-block" id="publications">
-                    <h2><span class="fas fa-microscope" aria-hidden="true"></span> Mes publications</h2><p>L. Lescos, S. P. Sitkiewicz, P. Beaujean, M. Blanchard-Desce, B. Champagne, E. Matito et F. Castet. "Performance of DFT functionals for calculating the second-order nonlinear optical properties of dipolar merocyanines". <em>Phys. Chem. Chem. Phys.</em> <b>22</b>, 16579 (2020). <a href="http://dx.doi.org/10.1039/D0CP02992K">10.1039/D0CP02992K</a>.</p><p>P. Beaujean et B. Champagne. "Coupled cluster investigation of the vibrational and electronic second and third harmonic scattering hyperpolarizabilities of the water molecule". <em>J. Chem. Phys.</em> <b>151</b>, 064303 (2019). <a href="http://dx.doi.org/10.1063/1.5110375">10.1063/1.5110375</a>.</p><p>P. Beaujean et B. Champagne. "Coupled cluster evaluation of the second and third harmonic scattering responses of small molecules". <em>Theo. Chem. Acc.</em> <b>137</b>, 50 (2018). <a href="http://dx.doi.org/10.1007/s00214-018-2219-y">10.1007/s00214-018-2219-y</a>.</p><p>B. Champagne, P. Beaujean, M. de Wergifosse, M. H. Cardenuto, V. Liégeois et F. Castet. "Quantum Chemical Methods for Predicting and Interpreting Second-Order Nonlinear Optical Properties: From Small to Extended π-Conjugated Molecules". <em>Frontiers of Quantum Chemistry</em> <b>6</b>, 117 (2018). <a href="http://dx.doi.org/10.1007/978-981-10-5651-2_6">10.1007/978-981-10-5651-2_6</a>.</p><p>P. Beaujean et B. Champagne. "Coupled cluster evaluation of the frequency dispersion of the first and second hyperpolarizabilities of water, methanol, and dimethyl ether". <em>J. Chem. Phys.</em> <b>145</b>, 044311 (2016). <a href="http://dx.doi.org/10.1063/1.4958736">10.1063/1.4958736</a>.</p><p>P. Beaujean, F. Bondu, A. Plaquet, J. Garcia-Amoros, J. Cusido, F.M. Raymo, F. Castet, V. Rodriguez et B. Champagne. "Oxazines: A New Class Of Second-Order Nonlinear Optical Switches". <em>J. Am. Chem. Soc.</em> <b>138</b>, 5052 (2016). <a href="http://dx.doi.org/10.1021/jacs.5b13243">10.1021/jacs.5b13243</a>.</p><p>P. Beaujean et M. Kertesz. "Helical molecular redox actuators with pancake bonds?". <em>Theo. Chem. Acc.</em> <b>134</b>, 147 (2015). <a href="http://dx.doi.org/10.1007/s00214-015-1750-3">10.1007/s00214-015-1750-3</a>.</p>
-                </div>
-                <div class="inner-block" id="ZdS">
-                    <h2><span class="fas fa-comments" aria-hidden="true"></span> Activités sur Zeste de Savoir</h2><p>Travail de médiation scientifique sur <a href="https://zestedesavoir.cfom">Zeste de Savoir</a> avec une aide régulière sur des questions de chimie <a href="https://zestedesavoir.com/forums/savoirs/sciences/">dans le forum correspondant</a> et la publications de différents contenus.</p><ul><li><p><a href="https://zestedesavoir.com/tutoriels/3506/que-se-passe-t-il-lorsquon-fait-du-pain/">Que se passe-t-il lorsqu'on fait du pain ?</a> (tutoriel, publié le 1 mai 2020).</p></li><li><p><a href="https://zestedesavoir.com/billets/3537/comprendre-les-parametres-en-photographie/">Comprendre les paramètres en photographie</a> (billet, publié le 26 avril 2020).</p></li><li><p><a href="https://zestedesavoir.com//billets/2942/la-fameuse-directive-copyright-europeenne/">La fameuse directive Copyright Européenne</a> (billet, publié le 15 décembre 2018).</p></li><li><p><a href="https://zestedesavoir.com/billets/2875/joyeux-jour-de-la-mole/">Joyeux jour de la mole !</a> (billet, publié le 23 octobre 2018).</p></li><li><p><a href="https://zestedesavoir.com/tutoriels/2256/de-la-logique-aux-processeurs/">De la logique aux processeurs</a> (tutoriel, publié en octobre 2018).</p></li><li><p><a href="https://zestedesavoir.com/articles/2695/o-belgique-o-1/">Ô Belgique, ô ...</a> (article, publié  en juillet 2018).</p></li><li><p><a href="https://zestedesavoir.com/billets/1982/vis-ma-vie-le-doctorat/">Vis ma vie: le doctorat</a> (billet, publié en juin 2017).</p></li><li><p><a href="https://zestedesavoir.com/articles/188/cancer-entre-recherches-et-espoirs/">Cancer: entre recherches et espoirs</a> (article, publié en mai 2016).</p></li><li><p><a href="https://zestedesavoir.com/articles/73/philae-a-la-recherche-de-lorigine-de-la-chiralite-du-monde/">Philae: à la recherche de l'origine de la chiralité du monde ?</a> (article, publié en mars 2015).</p></li><li><p><a href="https://zestedesavoir.com/articles/196/interview-rencontre-avec-pierre-24/">Interview: recontre avec pierre_24</a> (interview, publiée en octobre 2015).</p></li><li><p><a href="https://zestedesavoir.com/tutoriels/245/la-recherche-dinformations-sur-internet/">La recherche d'informations sur internet</a> (tutoriel, publié en juillet 2014).</p></li></ul>
-                </div>
-                <div class="inner-block" id="skills">
-                    <h2><span class="fas fa-puzzle-piece" aria-hidden="true"></span>  Mes compétences</h2><h3>Outils de chimie quantique</h3><div class="skills-container"><p class="skill">Gaussian <span class="bar-border"><span class="bar-value" style="width:80.0%"></span></span></p><p class="skill">GAMESS <span class="bar-border"><span class="bar-value" style="width:60.0%"></span></span></p><p class="skill">Dalton <span class="bar-border"><span class="bar-value" style="width:40.0%"></span></span></p><p class="skill">xTB <span class="bar-border"><span class="bar-value" style="width:40.0%"></span></span></p><p class="skill">Avogadro <span class="bar-border"><span class="bar-value" style="width:80.0%"></span></span></p><p class="skill">Chemcraft <span class="bar-border"><span class="bar-value" style="width:60.0%"></span></span></p></div><h3>Méthodes de chimie quantique</h3><div class="skills-container"><p class="skill">Hartree-Fock <span class="bar-border"><span class="bar-value" style="width:80.0%"></span></span></p><p class="skill">DFT <span class="bar-border"><span class="bar-value" style="width:80.0%"></span></span></p><p class="skill">CI <span class="bar-border"><span class="bar-value" style="width:40.0%"></span></span></p><p class="skill">Coupled Cluster <span class="bar-border"><span class="bar-value" style="width:60.0%"></span></span></p></div><p><p>Utilisées pour la prédiction et l'analyse des propriétés moléculaires, au travers des approches TDHF ou TDDFT, ou des fonctions réponses.</p></p><h3>Programmation</h3><div class="skills-container"><p class="skill">Python <span class="bar-border"><span class="bar-value" style="width:80.0%"></span></span></p><p class="skill">C <span class="bar-border"><span class="bar-value" style="width:60.0%"></span></span></p><p class="skill">Java <span class="bar-border"><span class="bar-value" style="width:60.0%"></span></span></p><p class="skill">Bash <span class="bar-border"><span class="bar-value" style="width:60.0%"></span></span></p><p class="skill">SQL <span class="bar-border"><span class="bar-value" style="width:40.0%"></span></span></p><p class="skill">Javascript <span class="bar-border"><span class="bar-value" style="width:40.0%"></span></span></p><p class="skill">HTML et CSS <span class="bar-border"><span class="bar-value" style="width:60.0%"></span></span></p></div><p><p>La plupart de mes codes sont écrit en python 3, à l'aide de <a href="https://scipy.org/">scipy</a>.</p></p><h3>Outils d'écriture et de visualisation</h3><div class="skills-container"><p class="skill">LaTeX <span class="bar-border"><span class="bar-value" style="width:80.0%"></span></span></p><p class="skill">GNUPLOT <span class="bar-border"><span class="bar-value" style="width:60.0%"></span></span></p><p class="skill">ChemDraw <span class="bar-border"><span class="bar-value" style="width:80.0%"></span></span></p><p class="skill">LibreOffice <span class="bar-border"><span class="bar-value" style="width:80.0%"></span></span></p><p class="skill">Microsoft Office <span class="bar-border"><span class="bar-value" style="width:60.0%"></span></span></p></div><p><p>À l'aise dans les communications orales et écrites en <strong>français</strong> (langue natale) et en <strong>anglais</strong>.</p></p><h3>Autres</h3><p><p>Très bonne maîtrise de la chimie quantique, ainsi que de l’électrochimie, la chimie physique, biologique, inorganique, organique. Connaissances dans le domaine des mathématiques, de la théorie des groupes, de la physique et de la biologie.</p>
-<p>Bonne maîtrise des systèmes d’exploitation de type UNIX (Linux, Mac OSX) ainsi que Microsoft Windows.</p></p>
-                </div>
+            <div class="col-lg-6 col-md-12" id="row-right">
+                <div id="bl-interests">
+    <h2 id="interests">Activités et intérêts</h2>
+    <p><strong>Programmation (2011 à aujourd'hui):</strong>
+développement de différents codes pour extraire et interpréter les données issues de résultats de calculs, et écrit durant mon mémoire et mon doctorat.
+Depuis 2014, contributions régulières au code de <a href="https://zestedesavoir.com/">Zeste de Savoir</a>, une plateforme de partage des connaissances et écrite en python.</p>
+<p>En septembre 2017, j'ai débuté un bachelier en informatique en cours du soir pour améliorer mes compétences, que j'ai obtenu en juin 2020 avec grande distinction, après un parcours sans fautes.</p>
+<p><strong>Assistanat (2015 à 2021):</strong>
+séances d'exercices et de travaux pratiques en chimie générale (première année en sciences), mathématiques (deuxième année en chimie, équations différentielles, algèbre linéaire et théorie des groupes) et chimie quantique (troisième et quatrième année en chimie, travaux pratiques avec GAMESS).</p>
+<p><strong>Coach scolaire (2011-2015):</strong>
+professeur particulier en chimie, physique, biologie et mathématiques.</p>
+<p><strong>Animateur de plaine de vacances (2008-2014):</strong>
+Animateur scout et de plaines de vacances, en possession de son brevet d'animateur de centre de vacances (BACV), obtenu en 2011.</p>
+<p><strong>Autres:</strong>
+photographie (<a href="https://pics.pierrebeaujean.net">voir ici</a>), voyage à vélo, escalade, natation, lecture, écriture, programmation, cuisine, travail dans un environnement international, câliner <a href="https://twitter.com/PotichatBatida">mon chat</a>.</p>
+</div>
+                <div id="bl-pathway">
+    
+    <h2 id="pathway">Mes expériences</h2>
+    <ul>
+
+    <li>
+        <h3>Octobre 2021</h3>
+        <p>Obtention de ma <strong>thèse de doctorat en Sciences</strong>, sur le sujet <em>Quantum Chemistry Investigations on Nonlinear Optical Materials: from Reference to Complex Systems</em> (Université de Namur, Belgique)</p>
+    </li>
+
+    <li>
+        <h3>Septembre 2021</h3>
+        <p>Début du travail pour le <a href="https://enccb.be">NCC EuroCC belge</a> pour <strong>dévelloper les compétences</strong> et <strong>sensibiliser le public</strong> (Université de Namur, Belgique).</p>
+    </li>
+
+    <li>
+        <h3>Juin 2020</h3>
+        <p>Obtention de mon <strong>Bachelier en Sciences Informatiques</strong> avec grande distinction, en cours du soir (Université de Namur, Belgique)</p>
+    </li>
+
+    <li>
+        <h3>Septembre 2019</h3>
+        <p><strong>Présentation de 15 minutes</strong> à l'<a href="https://gefam.org/2018/10/30/computational-theoretical-chemistry-euco-2019-conference-perugia-italy-september-1-5-2019/">EUCO 2019</a> sur le sujet <em>Evaluating the electronic and vibrational contributions to second and third harmonic scattering responses</em> (Perugia, Italie)</p>
+    </li>
+
+    <li>
+        <h3>Fin septembre 2018</h3>
+        <p><strong>Présentation de 15 minutes</strong>  au <a href="https://www.unamur.be/recherche/services-adre/evenements/nism/nism-2018">premier <em>meeting</em> annuel</a> du "Namur Institute of Structural Matter" (NISM) sur le sujet <em>Prediction and Analysis of the Electronic and Vibrational Contributions to the Second and Third Harmonic Scattering Responses Using Ab Initio Methods</em> (Namur, Belgium).</p>
+    </li>
+
+    <li>
+        <h3>Début septembre 2018</h3>
+        <p><strong>Séjour scientifique d'une semaine</strong> au laboratoire de notre collaborateur, <a href="http://www.univ-angers.fr/fr/_plugins/mypage/mypage/content/lionel.sanguinet.html">Lionel Sanguinet</a> (chercheur à <a href="http://moltech-anjou.univ-angers.fr/index_anglais.htm">Moltech Anjou</a>), pour confronter résultats expérimentaux et théoriques sur différents systèmes (Université d'Angers, France).</p>
+    </li>
+
+    <li>
+        <h3>Mai 2018</h3>
+        <p><strong>Présentation de 15 minutes</strong> à la journée scientifique de <a href="http://www.metamorphose.frs-fnrs.be/">METAMORPHOSE (école doctorale)</a> sur le sujet <em>Coupled cluster evaluation of the second and third harmonic scattering responses of small molecules</em> (UCL, Belgique).</p>
+    </li>
+
+    <li>
+        <h3>Janvier 2018</h3>
+        <p>Presentation du <strong>poster</strong> sur <em>Coupled cluster evaluation of the second and third harmonic scattering responses of small molecules</em> au symposium Quantum Chemistry in Belgium (QCB) 13.</p>
+    </li>
+
+    <li>
+        <h3>Septembre 2017</h3>
+        <p>Début d'un <strong>Bachalauréat en Sciences Informatiques (en cours du soir)</strong> à l'<a href="https://directory.unamur.be/teaching/programmes/870B">Université de Namur</a> en parallèle de mon doctorat.</p>
+    </li>
+
+    <li>
+        <h3>Septembre 2016</h3>
+        <p><strong>Présentation de 15 minutes</strong> au <a href="http://www2.chemia.uj.edu.pl/cttc7/home.shtml">CTTC VII (Current Trends in Theoretical Chemistry VII)</a> sur le sujet <em>Coupled cluster evaluation of the frequency dispersion of the first and second hyperpolarizabilities of water, methanol, and dimethyl ether</em> (Krakow, Pologne).</p>
+    </li>
+
+    <li>
+        <h3>Septembre 2015</h3>
+        <p>Début de ma <strong>thèse de doctorat</strong> (en 6 ans)en chimie quantique dans le Laboratoire de Chimie Théorique (LCT), sous la supervision du Professeur B. Champagne (Université de Namur, Belgique), dans le cadre d'un mandat d'assistant (2-4-6).</p>
+    </li>
+
+    <li>
+        <h3>Juin 2015</h3>
+        <p>Obtention de mon <strong>Master en Sciences Chimiques</strong>, finalité approfondie, orientation Chimie des Nano-matériaux, avec distinction (Université de Namur, Belgique).</p>
+    </li>
+
+    <li>
+        <h3>Mars 2015</h3>
+        <p><strong>Stage de 3 mois</strong> dans le laboratoire du <a href="https://chemistry.georgetown.edu/Kertesz">professeur M. Kertesz</a> (Georgetown University, USA), sur le sujet <em>Helical molecular actuators with pancake bonds</em>.</p>
+    </li>
+
+    <li>
+        <h3>Janvier 2015</h3>
+        <p>Défense de mon <strong>mémoire en chimie quantique</strong> réalisé dans le Laboratoire de Chimie Théorique (LCT), sous la supervision du Professeur B. Champagne et du docteur A. Plaquet (Université de Namur, Belgique) sur <em>Characterization of the second-order nonlinear optical properties of oxazine molecular switches by quantum chemistry calculation and hyper-Rayleigh scattering spectroscopy</em>.</p>
+    </li>
+
+    <li>
+        <h3>Juillet 2014</h3>
+        <p><strong>Visite de deux semaines</strong> du laboratoire du <a href="https://gsm.ism.u-bordeaux.fr/index.php/membre/page_membre/Vincent-Rodriguez">professeur V. Rodriguez</a> pour la caractérisation des propriétés optiques non linéaires de composés de la famille des oxazines par spectroscopie Hyper-Rayleigh (Université de Bordeaux I, France).</p>
+    </li>
+
+</ul>
+    
+</div>
             </div>
-            <div class="col-md-6" id="right-side">
-                <div class="inner-block" id="interests">
-                    <h2><span class="fas fa-heart" aria-hidden="true"></span> Activités et intérêts</h2><p><strong>Assistanat (2015 à aujourd'hui):</strong> séances d'exercices et de travaux pratiques en chimie générale (première année en sciences), mathématiques (deuxième année en chimie, équations différentielles, algèbre linéaire et théorie des groupes) et chimie quantique (troisième et quatrième année en chimie, travaux pratiques avec GAMESS).</p><p><strong>Programmation (2011 à aujourd'hui):</strong> développement de différents codes pour extraire et interpréter les données issues de résultats de calculs, et écrit durant mon mémoire et mon doctorat. Depuis 2014, contributions régulières au code de <a href="https://zestedesavoir.com/">Zeste de Savoir</a>, une plateforme de partage des connaissances et écrite en python.
-En septembre 2017, j'ai débuté un bachelier en informatique en cours du soir pour améliorer mes compétences, que j'ai obtenu en juin 2020 avec grande distinction, après un parcours sans fautes.</p><p><strong>Coach scolaire (2011-2015):</strong>  professeur particulier en chimie, physique, biologie et mathématiques.</p><p><strong>Animateur de plaine de vacances (2008-2014):</strong> Animateur scout et de plaines de vacances, en possession de son brevet d'animateur de centre de vacances (BACV), obtenu en 2011.</p><p><strong>Autres:</strong> photographie (<a href="https://pics.pierrebeaujean.net">voir ici</a>), natation, lecture, écriture, programmation, cuisine, travail dans un environnement international, câliner <a href="https://twitter.com/StuffLePotichat">mon chat</a>.</p>
-                </div>
-                <div class="inner-block" id="experiences">
-                    <h2><span class="fas fa-chart-line" aria-hidden="true"></span> Parcours et expériences</h2><div class="exp-border"><h3>Juin 2020</h3><p>Obtention de mon <strong>Bachelier en Sciences Informatiques</strong> avec grande distinction, en cours du soir (Université de Namur, Belgique)</p><h3>Septembre 2019</h3><p><strong>Présentation de 15 minutes</strong> à l'<a href="https://gefam.org/2018/10/30/computational-theoretical-chemistry-euco-2019-conference-perugia-italy-september-1-5-2019/">EUCO 2019</a> sur le sujet <em>Evaluating the electronic and vibrational contributions to second and third harmonic scattering responses</em> (Perugia, Italie)</p><h3>Fin septembre 2018</h3><p><strong>Présentation de 15 minutes</strong>  au <a href="https://www.unamur.be/recherche/services-adre/evenements/nism/nism-2018">premier <em>meeting</em> annuel</a> du "Namur Institute of Structural Matter" (NISM) sur le sujet <em>Prediction and Analysis of the Electronic and Vibrational Contributions to the Second and Third Harmonic Scattering Responses Using Ab Initio Methods</em> (Namur, Belgium).</p><h3>Début septembre 2018</h3><p><strong>Séjour scientifique d'une semaine</strong> au laboratoire de notre collaborateur, <a href="http://www.univ-angers.fr/fr/_plugins/mypage/mypage/content/lionel.sanguinet.html">Lionel Sanguinet</a> (chercheur à <a href="http://moltech-anjou.univ-angers.fr/index_anglais.htm">Moltech Anjou</a>), pour confronter résultats expérimentaux et théoriques sur différents systèmes (Université d'Angers, France).</p><h3>Mai 2018</h3><p><strong>Présentation de 15 minutes</strong> à la journée scientifique de <a href="http://www.metamorphose.frs-fnrs.be/">METAMORPHOSE (école doctorale)</a> sur le sujet <em>Coupled cluster evaluation of the second and third harmonic scattering responses of small molecules</em> (UCL, Belgique).</p><h3>Janvier 2018</h3><p>Presentation du <strong>poster</strong> sur <em>Coupled cluster evaluation of the second and third harmonic scattering responses of small molecules</em> au symposium Quantum Chemistry in Belgium (QCB) 13.</p><h3>Septembre 2017</h3><p>Début d'un <strong>Bachalauréat en Sciences Informatiques (en cours du soir)</strong> à l'<a href="https://directory.unamur.be/teaching/programmes/870B">Université de Namur</a> en parallèle de mon doctorat.</p><h3>Septembre 2016</h3><p><strong>Présentation de 15 minutes</strong> au <a href="http://www2.chemia.uj.edu.pl/cttc7/home.shtml">CTTC VII (Current Trends in Theoretical Chemistry VII)</a> sur le sujet <em>Coupled cluster evaluation of the frequency dispersion of the first and second hyperpolarizabilities of water, methanol, and dimethyl ether</em> (Krakow, Pologne).</p><h3>Septembre 2015</h3><p>Début de ma <strong>thèse de doctorat</strong> (en 6 ans)en chimie quantique dans le Laboratoire de Chimie Théorique (LCT), sous la supervision du Professeur B. Champagne (Université de Namur, Belgique), dans le cadre d'un mandat d'assistant (2-4-6).</p><h3>Juin 2015</h3><p>Obtention de mon <strong>Master en Sciences Chimiques</strong>, finalité approfondie, orientation Chimie des Nano-matériaux, avec distinction (Université de Namur, Belgique).</p><h3>Mars 2015</h3><p><strong>Stage de 3 mois</strong> dans le laboratoire du <a href="https://chemistry.georgetown.edu/Kertesz">professeur M. Kertesz</a> (Georgetown University, USA), sur le sujet <em>Helical molecular actuators with pancake bonds</em>.</p><h3>Janvier 2015</h3><p>Défense de mon <strong>mémoire en chimie quantique</strong> réalisé dans le Laboratoire de Chimie Théorique (LCT), sous la supervision du Professeur B. Champagne et du docteur A. Plaquet (Université de Namur, Belgique) sur <em>Characterization of the second-order nonlinear optical properties of oxazine molecular switches by quantum chemistry calculation and hyper-Rayleigh scattering spectroscopy</em>.</p><h3>Juillet 2014</h3><p><strong>Visite de deux semaines</strong> du laboratoire du <a href="https://gsm.ism.u-bordeaux.fr/index.php/membre/page_membre/Vincent-Rodriguez">professeur V. Rodriguez</a> pour la caractérisation des propriétés optiques non linéaires de composés de la famille des oxazines par spectroscopie Hyper-Rayleigh (Université de Bordeaux I, France).</p></div>
-                </div>
-            </div>
+
         </div>
     </div>
 
-    
-    <footer>
+
+    <footer class="bg-light py-2">
         <div class="container">
-            <p>Par Pierre Beaujean. Site statique généré par <a href="https://github.com/pierre-24/static_resume"><code>static_resume</code></a> en <a href="https://www.python.org/">Python 3</a>. Hébergé par <a href="https://www.digitalocean.com/">Digital Ocean</a> et servi par <a href="http://nginx.org/">NGINX</a>. <a href="https://github.com/pierre-24/pierrebeaujean.net/issues">Dites moi si il y a des erreurs</a> !</p>
-            <p>Page générée le 01/10/2020. <a href="https://track.pierrebeaujean.net/"><img src="https://track.pierrebeaujean.net/tr/pierrebeaujean.net/image.png" alt="statistics" /></a></p>
+            <p>&copy; Pierre Beaujean</p>
+            <p>Généré <a href="https://github.com/pierre-24/pierrebeaujean.net">par un code maison</a> écrit en <a href="https://www.python.org/">Python 3</a> 🐍 par Pierre Beaujean.
+<a href="https://github.com/pierre-24/pierrebeaujean.net/issues">Dites moi s'il y a des erreurs</a>!</p>
+            <p>Page générée le 29/01/2022 <a href="https://track.pierrebeaujean.net/"><img src="https://track.pierrebeaujean.net/tr/pierrebeaujean.net/image.png" alt="statistics" /></a></p>
         </div>
     </footer>
 
-
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- scripts: -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/05ac4d5efb.js"></script>
 
+  <script>
+      document.querySelectorAll('h2').forEach($e => {
+          let $link = document.createElement('a');
+          $link.innerText = '#';
+          $link.href= `#${$e.id}`;
+          $link.classList.add('anchor')
+
+          $e.appendChild($link);
+      });
+  </script>
   </body>
 </html>
