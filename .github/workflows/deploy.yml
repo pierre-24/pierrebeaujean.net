@@ -1,0 +1,36 @@
+name: Publish docs via GitHub Pages
+# from https://github.com/marketplace/actions/sphinx-to-github-pages
+on:
+  push:
+    branches:
+    - master
+  pull_request:
+    branches: [ master ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - uses: actions/checkout@master
+      with:
+        fetch-depth: 0
+    - name: Install dependencies
+      run: |
+        pip3 install pip-tools
+        make init
+    - name: Generate pages
+      run: |
+        make gen
+        git checkout gh-pages
+        git rm -rf .
+        mv -R build/* .
+        rm -R build/
+        git add .
+        git commit -am "add change"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: gh-pages
