@@ -69,6 +69,7 @@ def main():
     # assets
     base.Asset(pathlib.Path('./src/assets/me.jpg'), build_dir / 'me.jpg').generate()
     custom.ScssStylesheet(pathlib.Path('src/assets/style.scss'), build_dir / 'style.css').generate()
+    base.Asset(pathlib.Path('./src/assets/favicon.svg'), build_dir / 'favicon.svg').generate()
 
     # nojekyll
     base.NoJekyll(build_dir).generate()

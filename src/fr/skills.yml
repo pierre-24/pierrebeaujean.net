@@ -22,7 +22,7 @@ skills:
       Javascript: 1
       HTML and CSS: 2
     extra: "La plupart de mes codes sont écrit en Python 3, à l'aide des outils de [scipy](https://scipy.org/) stack."
-  - name: 'Visualisation et écritere'
+  - name: 'Visualisation et écriture'
     topics:
       LaTeX: 3
       GNUPLOT: 3
