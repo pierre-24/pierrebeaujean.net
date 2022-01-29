@@ -34,7 +34,10 @@ def main():
         # build context
         base.RawContext({
             'build_context': datetime.now().strftime('This page was generated on %B %d, %Y'),
-            'lang': 'en'
+            'lang': 'en',
+            'page': 'index.html',
+            'locale': 'en_US',
+            'description': pathlib.Path('./src/en/description.txt').open().read()
         }),
         # specific context
         base.MarkdownContext('introduction', pathlib.Path('src/en/introduction.md')),
@@ -52,7 +55,10 @@ def main():
         # build context
         base.RawContext({
             'build_context': datetime.now().strftime('Page générée le %d/%m/%Y'),
-            'lang': 'fr'
+            'page': 'fr.html',
+            'lang': 'fr',
+            'locale': 'fr_FR',
+            'description': pathlib.Path('./src/fr/description.txt').open().read()
         }),
         # specific context
         base.MarkdownContext('introduction', pathlib.Path('src/fr/introduction.md')),

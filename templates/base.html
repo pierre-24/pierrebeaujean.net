@@ -1,20 +1,36 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>CV @ {{ name }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favicon.svg">
-  </head>
-  <body{% block body_attribs %}{% endblock body_attribs %}>
+    <head prefix="og: http://ogp.me/ns# profile: http://ogp.me/ns/profile#">
+        <title>CV @ {{ first_name }} {{ last_name }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="icon" href="favicon.svg">
+        <!-- opengraph -->
+        <meta property="og:title" content="CV @ {{ first_name }} {{ last_name }}" />
+        <meta property="og:site_name" content="CV @ {{ first_name }} {{ last_name }}" />
+        <meta property="og:url" content="{{ domain }}/{{ page }}" />
+        <meta property="og:description" content="{{ description }}" />
+        <meta property="og:image" content="{{ domain }}/favicon.svg" />
+        <meta property="og:image:type" content="image/svg+xml">
+        <meta property="og:locale" content="{{ locale }}">
+        <meta property="og:type" content="profile" />
+        <meta property="profile:first_name" content="{{ first_name }}">
+        <meta property="profile:last_name" content="{{ last_name }}">
+        <meta property="profile:gender" content="{{ sex }}">
+        <meta property="profile:username" content="{{ first_name }}{{ last_name }}">
+        <!-- twitter card -->
+        <meta name="twitter:card" content="summary" />
+        {% if accounts.twitter %}<meta name="twitter:creator" content="@{{ accounts.twitter }}" />{% endif %}
+        <!-- CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body{% block body_attribs %}{% endblock body_attribs %}>
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">CV @ {{ name }}</a>
+            <a class="navbar-brand" href="#">CV @ {{ first_name }} {{ last_name }}</a>
             <!-- collapse: -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -42,9 +58,9 @@
             </div>
             <div class="col-lg-3 col-md-12 px-lg-4 py-lg-2" id="presentation-contact">
                 <div class="contact-large d-none d-lg-block">
-                {% if email_address %}<h4>Email</h4><p><a href="mailto:{{ email_address }}">{{ email_address }}</a></p>{% endif %}
+                    {% if email_address %}<h4>Email</h4><p><a href="mailto:{{ email_address }}">{{ email_address }}</a></p>{% endif %}
                     {% if accounts.twitter %}<h4>Twitter</h4><p><a href="https://twitter.com/{{ accounts.twitter }}">@{{ accounts.twitter }}</a></p>{% endif %}
-                {% if accounts.orcid %}<h4>ORCID</h4><p><a href="https://orcid.org/{{ accounts.orcid }}">{{ accounts.orcid }}</a></p>{% endif %}
+                    {% if accounts.orcid %}<h4>ORCID</h4><p><a href="https://orcid.org/{{ accounts.orcid }}">{{ accounts.orcid }}</a></p>{% endif %}
                 </div>
                 <div class="icons mt-2">
                     <div class="contact-small d-inline d-lg-none">
@@ -82,7 +98,7 @@
 
     <footer class="bg-light py-2">
         <div class="container">
-            <p>&copy; {{ name }}</p>
+            <p>&copy; {{ first_name }} {{ last_name }}</p>
             {{ footer }}
             <p>{{ build_context }} <a href="https://track.pierrebeaujean.net/"><img src="https://track.pierrebeaujean.net/tr/pierrebeaujean.net/image.png" alt="statistics" /></a></p>
         </div>

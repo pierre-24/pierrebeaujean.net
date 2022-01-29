@@ -1,4 +1,7 @@
-name: 'Pierre Beaujean'
+first_name: 'Pierre'
+last_name: 'Beaujean'
+sex: 'male'
+domain: 'https://pierrebeaujean.net'
 email_address: 'pierre.beaujean@unamur.be'
 accounts:
   twitter: 'PierreBeaujean'
