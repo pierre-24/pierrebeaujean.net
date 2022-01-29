@@ -1,0 +1,132 @@
+publications:
+  - authors:
+    - "P. Beaujean"
+    - "B. Champagne"
+    title: "Unraveling the Symmetry Effects on the Second-Order Nonlinear Optical Responses of Molecular Switches: The Case of Ruthenium Complexes"
+    journal: "Inorg. Chem."
+    volume: "xxx"
+    page: "xxx"
+    year: 2022
+    doi: '10.1021/acs.inorgchem.1c03077'
+  - authors:
+    - "P. Beaujean"
+    - "B. Champagne"
+    - "S.Grimme"
+    - "M. de Wergifosse"
+    title: "All-Atom Quantum Mechanical Calculation of the Second-Harmonic Generation of Fluorescent Proteins"
+    journal: "J. Phys. Chem. Lett."
+    volume: 12
+    page: 9684
+    year: 2021
+    doi: '10.1021/acs.jpclett.1c02911'
+  - authors:
+      - "L. Lescos"
+      - "P. Beaujean"
+      - "C. Tonnelé"
+      - "P. Aurel"
+      - "M. Blanchard-Desce"
+      - "V. Rodriguez"
+      - "M. de Wergifosse"
+      - "B. Champagne"
+      - "L. Muccioli"
+      - "F. Castet"
+    title: "Self-assembling, structure and nonlinear optical properties of fluorescent organic nanoparticles in water"
+    journal: "Phys. Chem. Chem. Phys."
+    volume: 23
+    page: 23643
+    year: 2021
+    doi: '10.1039/D1CP03741B'
+  - authors:
+      - "J. Quertinmont"
+      - "P. Beaujean"
+      - "J. Stiennon"
+      - "Y. Aidibi"
+      - "P. Leriche"
+      - "V. Rodriguez"
+      - "L. Sanguinet"
+      - "B. Champagne"
+    title: "Combining Benzazolo-Oxazolidine Twins toward Multi-state Nonlinear Optical Switches"
+    journal: "J. Phys. Chem. B"
+    volume: 125
+    page: 3918
+    year: 2021
+    doi: "10.1021/acs.jpcb.1c01962"
+  - authors:
+    - "L. Lescos"
+    - "S. P. Sitkiewicz"
+    - "P. Beaujean"
+    - "M. Blanchard-Desce"
+    - "B. Champagne"
+    - "E. Matito"
+    - "F. Castet"
+    title: "Performance of DFT functionals for calculating the second-order nonlinear optical properties of dipolar merocyanines"
+    journal: "Phys. Chem. Chem. Phys."
+    volume: 22
+    page: 16579
+    year: 2020
+    doi: '10.1039/D0CP02992K'
+  - authors:
+    - "P. Beaujean"
+    - "B. Champagne"
+    title: "Coupled cluster investigation of the vibrational and electronic second and third harmonic scattering hyperpolarizabilities of the water molecule"
+    journal: "J. Chem. Phys."
+    volume: 151
+    page: '064303'
+    year: 2019
+    doi: '10.1063/1.5110375'
+  - authors:
+    - "B. Champagne"
+    - "P. Beaujean"
+    - "M. de Wergifosse"
+    - "M. H. Cardenuto"
+    - "V. Liégeois"
+    - "F. Castet"
+    title: "Quantum Chemical Methods for Predicting and Interpreting Second-Order Nonlinear Optical Properties: From Small to Extended π-Conjugated Molecules"
+    journal: "Frontiers of Quantum Chemistry"
+    volume: 6
+    page: 117
+    year: 2018
+    doi: '10.1007/978-981-10-5651-2_6'
+  - authors:
+    - "P. Beaujean"
+    - "B. Champagne"
+    title: "Coupled cluster evaluation of the second and third harmonic scattering responses of small molecules"
+    journal: "Theo. Chem. Acc."
+    volume: 137
+    page: 50
+    year: 2017
+    doi: '10.1007/s00214-018-2219-y'
+  - authors:
+    - "P. Beaujean"
+    - "B. Champagne"
+    title: "Coupled cluster evaluation of the frequency dispersion of the first and second hyperpolarizabilities of water, methanol, and dimethyl ether"
+    journal: "J. Chem. Phys."
+    volume: 145
+    page: '044311'
+    year: 2016
+    doi: '10.1063/1.4958736'
+  - authors:
+    - "P. Beaujean"
+    - "F. Bondu"
+    - "A. Plaquet"
+    - "J. Garcia-Amoros"
+    - "J. Cusido"
+    - "F.M. Raymo"
+    - "F. Castet"
+    - "V. Rodriguez"
+    - "B. Champagne"
+    title: "Oxazines: A New Class Of Second-Order Nonlinear Optical Switches"
+    journal: "J. Am. Chem. Soc."
+    volume: 138
+    page: 5052
+    year: 2016
+    doi: '10.1021/jacs.5b13243'
+  - authors:
+    - "P. Beaujean"
+    - "M. Kertesz"
+    title: "Helical molecular redox actuators with pancake bonds?"
+    journal: "Theor. Chem. Acc."
+    volume: 134
+    page: 147
+    year: 2015
+    doi: '10.1007/s00214-015-1750-3'

@@ -1,1 +1,7 @@
-static_resume @ git+https://github.com/pierre-24/static_resume.git@dev
+jinja2
+markdown
+pyyaml
+libsass
+flake8
+flake8-quotes
+autopep8

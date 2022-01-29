@@ -1,0 +1,8 @@
+<ul>
+{% for experience in pathway %}
+    <li>
+        <h3>{{ experience.when }}</h3>
+        {{ experience.what|markdown }}
+    </li>
+{% endfor %}
+</ul>

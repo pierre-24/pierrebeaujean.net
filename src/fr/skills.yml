@@ -1,0 +1,37 @@
+skills:
+  - name: 'Codes de chimie quantique'
+    topics:
+      Gaussian: 3
+      GAMESS: 2
+      Dalton: 2
+      xTB: 1
+      sTDA: 2
+    extra: 'Utilisé pour le calcul de propriétés ONL, y compris de manière approximée grâce à [sTD-DFT](https://github.com/grimme-lab/stda).'
+  - name: 'Méthodes de chimie quantique'
+    topics:
+      Hartree-Fock: 3
+      DFT: 2
+      Coupled Cluster: 2
+    extra: "Utilisées pour la prédiction et l'analyse des propriétés moléculaires, au travers des approches TDHF ou TDDFT, ou des fonctions réponses."
+  - name: 'Programmation'
+    topics:
+      Python: 3
+      C: 2
+      OpenMP / MPI: 2
+      Bash: 3
+      Javascript: 1
+      HTML and CSS: 2
+    extra: "La plupart de mes codes sont écrit en Python 3, à l'aide des outils de [scipy](https://scipy.org/) stack."
+  - name: 'Visualisation et écriture'
+    topics:
+      LaTeX: 3
+      GNUPLOT: 3
+      ChemDraw: 3
+      LibreOffice: 2
+      Microsoft Office: 1
+    extra: "À l'aise dans les communications orales et écrites en **français** (langue natale) et en **anglais**."
+  - name: 'Autres'
+    extra: 'Très bonne maîtrise de la chimie quantique, ainsi que de l’électrochimie, la chimie physique, biologique, inorganique, organique. Connaissances dans le domaine des mathématiques, de la théorie des groupes, de la physique et de la biologie.
+
+
+    Bonne maîtrise des systèmes d’exploitation de type UNIX (Linux, macOS) ainsi que Microsoft Windows'

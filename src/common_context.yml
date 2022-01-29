@@ -1,0 +1,13 @@
+first_name: 'Pierre'
+last_name: 'Beaujean'
+sex: 'male'
+domain: 'https://pierrebeaujean.net'
+email_address: 'pierre.beaujean@unamur.be'
+accounts:
+  twitter: 'PierreBeaujean'
+  linkedin: 'pierre-beaujean'
+  orcid: '0000-0003-3723-3257'
+  github: 'pierre-24'
+  researchgate: 'Pierre_Beaujean'
+  scopus: 57195713289
+  ggscholar: '6SPNktQAAAAJ'
