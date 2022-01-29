@@ -71,8 +71,9 @@ def main():
     custom.ScssStylesheet(pathlib.Path('src/assets/style.scss'), build_dir / 'style.css').generate()
     base.Asset(pathlib.Path('./src/assets/favicon.svg'), build_dir / 'favicon.svg').generate()
 
-    # nojekyll
+    # GH pages
     base.NoJekyll(build_dir).generate()
+    base.Asset(pathlib.Path('./src/assets/CNAME'), build_dir / 'CNAME').generate()
 
 
 if __name__ == '__main__':
