@@ -21,7 +21,7 @@ skills:
       Bash: 3
       Javascript: 1
       HTML and CSS: 2
-    extra: "La plupart de mes codes sont écrit en Python 3, à l'aide des outils de [scipy](https://scipy.org/) stack."
+    extra: "La plupart de mes codes sont écrit en Python 3, à l'aide des outils de l'écosystème [scipy](https://scipy.org/)."
   - name: 'Visualisation et écriture'
     topics:
       LaTeX: 3
