@@ -1,4 +1,8 @@
 zds:
+  - title: "Modéliser une épidémie"
+    type: "tutoriel"
+    link: "3790/modeliser-une-epidemie/"
+    date: "février 2022"
   - title: "0x5f3759df"
     type: "billet"
     link: "4011/0x5f3759df/"
