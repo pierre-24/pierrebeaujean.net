@@ -1,5 +1,22 @@
 publications:
   - authors:
+    - "Y. Aidibi"
+    - "P. Beaujean"
+    - "J. Quertinmont"
+    - "J. Stiennon"
+    - "M. Hodée"
+    - "P. Leriche"
+    - "J. Berthet"
+    - "S. Delbaere"
+    - "B. Champagne"
+    - "L. Sanguinet"
+    title: "A molecular loaded dice: When the π conjugation breaks the statistical addressability of an octastate multimodal molecular switch"
+    journal: "Dyes Pigments"
+    volume: 202
+    page: 110270
+    year: 2022
+    doi: '10.1016/j.dyepig.2022.110270'
+  - authors:
     - "P. Beaujean"
     - "B. Champagne"
     title: "Unraveling the Symmetry Effects on the Second-Order Nonlinear Optical Responses of Molecular Switches: The Case of Ruthenium Complexes"
