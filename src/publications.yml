@@ -1,5 +1,17 @@
 publications:
   - authors:
+    - "P. Beaujean"
+    - "L. Sanguinet"
+    - "F. Castet"
+    - "V. Rodriguez"
+    - "B. Champagne"
+    title: "Multi-State Second-Order Nonlinear Optical Switches Incorporating One to Three Benzazolo-Oxazolidine Units: A Quantum Chemistry Investigation"
+    journal: "Molecules"
+    volume: 22
+    page: 2770
+    year: 2022
+    doi: '10.3390/molecules27092770'
+  - authors:
     - "Y. Aidibi"
     - "P. Beaujean"
     - "J. Quertinmont"
