@@ -1,4 +1,6 @@
 pathway:
+  - when: "Juin 2022"
+    what: "**Présentation de 15 minutes** au [RCTF 2022](https://rctf2022.sciencesconf.org/), sur le sujet *Effets de la symétrie sur la réponse optique non linéaire du deuxième ordre d’interrupteurs moléculaires : le cas de complexes au ruthénium* (Université de Bordeaux, France)"
   - when: "Octobre 2021"
     what: "Obtention de ma **thèse de doctorat en Sciences**, sur le sujet *Quantum Chemistry Investigations on Nonlinear Optical Materials: from Reference to Complex Systems* (Université de Namur, Belgique)"
   - when: "Septembre 2021"
