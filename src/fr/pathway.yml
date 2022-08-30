@@ -1,4 +1,7 @@
 pathway:
+
+  - when: "Aout 2022"
+    what: "**Présentation de 15 minutes** à la conférence [DFT 2022](https://www.dft2022.be/), sur le sujet *All-Atom Quantum Mechanical Calculation of the Second Harmonic Generation of Fluorescent Proteins* (Vrije Universiteit of Brussels, Belgique)"
   - when: "Juin 2022"
     what: "**Présentation de 15 minutes** au [RCTF 2022](https://rctf2022.sciencesconf.org/), sur le sujet *Effets de la symétrie sur la réponse optique non linéaire du deuxième ordre d’interrupteurs moléculaires : le cas de complexes au ruthénium* (Université de Bordeaux, France)"
   - when: "Octobre 2021"
