@@ -72,6 +72,11 @@ def main():
         base.MarkdownContext('footer', pathlib.Path('src/fr/footer.md'))
     ], env, build_dir / 'fr.html').generate()
 
+    # bibliography
+    base.TemplateFile('bibliography.bib.html', [
+        base.YamlContext(pathlib.Path('./src/publications.yml')),
+    ], env, build_dir / 'bibliography.bib').generate()
+
     # assets
     base.Asset(pathlib.Path('./src/assets/me.jpg'), build_dir / 'me.jpg').generate()
     custom.ScssStylesheet(pathlib.Path('src/assets/style.scss'), build_dir / 'style.css').generate()

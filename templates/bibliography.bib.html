@@ -1,0 +1,11 @@
+{% for pub in publications %}
+@article{{ "{" }}{{ pub.authors[0].split()[-1] }}{{ pub.journal.replace(' ', '').replace('.', '') }}{{ pub.year }},
+    title = "{{ pub.title }}",
+    author = "{% for a in pub.authors %}{% if loop.index > 1 %} AND {% endif %}{{ a }}{% endfor %}",
+    volume = "{{ pub.volume }}",
+    page = "{{ pub.page }}",
+    year = "{{ pub.year }}",
+    journal = "{{ pub.journal }}",
+    doi = "{{ pub.doi }}"
+}
+{% endfor %}
