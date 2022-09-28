@@ -1,5 +1,6 @@
 pathway:
-
+  - when: "Septembre 2022"
+    what: "Début d'un post-doc dans le [projet ECOBAT (EOS)](https://eos-ecobat.eu/) sur l'étude de nouvelles batteries grâce à des méthodes de chimie quantique."
   - when: "Aout 2022"
     what: "**Présentation de 15 minutes** à la conférence [DFT 2022](https://www.dft2022.be/), sur le sujet *All-Atom Quantum Mechanical Calculation of the Second Harmonic Generation of Fluorescent Proteins* (Vrije Universiteit of Brussels, Belgique)"
   - when: "Juin 2022"
