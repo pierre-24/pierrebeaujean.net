@@ -3,7 +3,7 @@
     title = "{{ pub.title }}",
     author = "{% for a in pub.authors %}{% if loop.index > 1 %} AND {% endif %}{{ a }}{% endfor %}",
     volume = "{{ pub.volume }}",
-    page = "{{ pub.page }}",
+    pages = "{{ pub.page }}",
     year = "{{ pub.year }}",
     journal = "{{ pub.journal }}",
     doi = "{{ pub.doi }}"
