@@ -1,5 +1,15 @@
 publications:
   - authors:
+    - "M. de Wergifosse"
+    - "P. Beaujean"
+    - "S. Grimme"
+    title: "Ultrafast Evaluation of Two-Photon Absorption with Simplified Time-Dependent Density Functional Theory"
+    journal: "J. Phys. Chem. A"
+    volume: "xx"
+    page: "xx"
+    year: 2022
+    doi: "10.1021/acs.jpca.2c02395"
+  - authors:
     - "P. Beaujean"
     - "L. Sanguinet"
     - "F. Castet"
