@@ -1,12 +1,29 @@
 publications:
   - authors:
+    - B. R. Hood
+    - Y. de Coene
+    - A. V. Torre Do Vale Froes
+    - C. F. Jones
+    - P. Beaujean
+    - V. Liégois 
+    - F. MacMillan
+    - B. Champagne
+    - K. Clays
+    - J. Fielden
+    title: "Electrochemically-Switched 2nd Order Non-Linear Optical Response in an Arylimido-Polyoxometalate with High Contrast and Cyclability"
+    journal: "Angew. Chem. Int. Ed."
+    volume: "xx"
+    page: "xx"
+    year: 2022
+    doi: "10.1002/anie.202215537"
+  - authors:
     - "M. de Wergifosse"
     - "P. Beaujean"
     - "S. Grimme"
     title: "Ultrafast Evaluation of Two-Photon Absorption with Simplified Time-Dependent Density Functional Theory"
     journal: "J. Phys. Chem. A"
-    volume: "xx"
-    page: "xx"
+    volume: "126"
+    page: "7534"
     year: 2022
     doi: "10.1021/acs.jpca.2c02395"
   - authors:
