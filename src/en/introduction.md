@@ -1,6 +1,6 @@
 # Hi! *I'm Pierre*
 
-I'm a Ph.D. in quantum chemistry (obtained in October 2021 in the [university of Namur](https://www.unamur.be/)).
+I have a Ph.D. in quantum chemistry (obtained in October 2021 in the [university of Namur](https://www.unamur.be/)).
 Currently, I am a postdoctoral researcher on the [ECOBAT (EOS) project](https://eos-ecobat.eu/), to study new batteries from a quantum chemistry point of view.
 I also recently (June 2020) obtained a [bachelor in Computer Science](https://directory.unamur.be/teaching/programmes/870B?_LOCALE_=en).
 
