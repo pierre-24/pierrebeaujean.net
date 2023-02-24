@@ -27,18 +27,6 @@ publications:
     year: 2022
     doi: "10.1021/acs.jpca.2c02395"
   - authors:
-    - "P. Beaujean"
-    - "L. Sanguinet"
-    - "F. Castet"
-    - "V. Rodriguez"
-    - "B. Champagne"
-    title: "Multi-State Second-Order Nonlinear Optical Switches Incorporating One to Three Benzazolo-Oxazolidine Units: A Quantum Chemistry Investigation"
-    journal: "Molecules"
-    volume: 22
-    page: 2770
-    year: 2022
-    doi: '10.3390/molecules27092770'
-  - authors:
     - "Y. Aidibi"
     - "P. Beaujean"
     - "J. Quertinmont"
@@ -57,6 +45,18 @@ publications:
     doi: '10.1016/j.dyepig.2022.110270'
   - authors:
     - "P. Beaujean"
+    - "L. Sanguinet"
+    - "F. Castet"
+    - "V. Rodriguez"
+    - "B. Champagne"
+    title: "Multi-State Second-Order Nonlinear Optical Switches Incorporating One to Three Benzazolo-Oxazolidine Units: A Quantum Chemistry Investigation"
+    journal: "Molecules"
+    volume: 22
+    page: 2770
+    year: 2022
+    doi: '10.3390/molecules27092770'
+  - authors:
+    - "P. Beaujean"
     - "B. Champagne"
     title: "Unraveling the Symmetry Effects on the Second-Order Nonlinear Optical Responses of Molecular Switches: The Case of Ruthenium Complexes"
     journal: "Inorg. Chem."
@@ -64,17 +64,6 @@ publications:
     page: 1928
     year: 2022
     doi: '10.1021/acs.inorgchem.1c03077'
-  - authors:
-    - "P. Beaujean"
-    - "B. Champagne"
-    - "S.Grimme"
-    - "M. de Wergifosse"
-    title: "All-Atom Quantum Mechanical Calculation of the Second-Harmonic Generation of Fluorescent Proteins"
-    journal: "J. Phys. Chem. Lett."
-    volume: 12
-    page: 9684
-    year: 2021
-    doi: '10.1021/acs.jpclett.1c02911'
   - authors:
       - "L. Lescos"
       - "P. Beaujean"
@@ -92,6 +81,17 @@ publications:
     page: 23643
     year: 2021
     doi: '10.1039/D1CP03741B'
+  - authors:
+    - "P. Beaujean"
+    - "B. Champagne"
+    - "S.Grimme"
+    - "M. de Wergifosse"
+    title: "All-Atom Quantum Mechanical Calculation of the Second-Harmonic Generation of Fluorescent Proteins"
+    journal: "J. Phys. Chem. Lett."
+    volume: 12
+    page: 9684
+    year: 2021
+    doi: '10.1021/acs.jpclett.1c02911'
   - authors:
       - "J. Quertinmont"
       - "P. Beaujean"
@@ -131,6 +131,15 @@ publications:
     year: 2019
     doi: '10.1063/1.5110375'
   - authors:
+    - "P. Beaujean"
+    - "B. Champagne"
+    title: "Coupled cluster evaluation of the second and third harmonic scattering responses of small molecules"
+    journal: "Theo. Chem. Acc."
+    volume: 137
+    page: 50
+    year: 2017
+    doi: '10.1007/s00214-018-2219-y'
+  - authors:
     - "B. Champagne"
     - "P. Beaujean"
     - "M. de Wergifosse"
@@ -143,15 +152,6 @@ publications:
     page: 117
     year: 2018
     doi: '10.1007/978-981-10-5651-2_6'
-  - authors:
-    - "P. Beaujean"
-    - "B. Champagne"
-    title: "Coupled cluster evaluation of the second and third harmonic scattering responses of small molecules"
-    journal: "Theo. Chem. Acc."
-    volume: 137
-    page: 50
-    year: 2017
-    doi: '10.1007/s00214-018-2219-y'
   - authors:
     - "P. Beaujean"
     - "B. Champagne"
