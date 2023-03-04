@@ -1,4 +1,8 @@
 zds:
+  - title: "FOSDEM 2023"
+    type: "billet"
+    link: "4437/fosdem-2023/"
+    date: "Février 2023"
   - title: "Où placer son routeur Wi-Fi ?"
     type: "billet"
     link: "4288/ou-placer-son-routeur-wi-fi/"
