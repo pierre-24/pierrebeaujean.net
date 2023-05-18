@@ -8,7 +8,6 @@ skills:
       '[sTDA](https://github.com/grimme-lab/stda)': 2
       '[CP2K](https://www.cp2k.org/)': 1
       '[VASP](https://www.vasp.at/)': 1
-    extra: 'Utilisé pour le calcul de propr
     extra: 'I focused on the calculation of NLO properties, including with approximate methods such as [sTD-DFT](https://github.com/grimme-lab/stda).'
   - name: 'QM methods'
     topics:
