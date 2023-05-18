@@ -83,6 +83,10 @@ h2 {
     .skill-pill {
         border: 1px solid #ddd;
         border-radius: 6px;
+        
+        p {
+            display: inline;
+        }
 
         .skill-s {
             display: inline-block;
