@@ -1,13 +1,13 @@
 skills:
   - name: 'Codes de chimie quantique'
     topics:
-      [Gaussian](https://gaussian.com/): 3
-      [GAMESS-US](https://www.msg.chem.iastate.edu/gamess/): 2
-      [Dalton](https://www.daltonprogram.org/): 2
-      [xTB](https://xtb-docs.readthedocs.io/en/latest/contents.html): 1
-      [sTDA](https://github.com/grimme-lab/stda): 2
-      [CP2K](https://www.cp2k.org/): 1
-      [VASP](https://www.vasp.at/): 1
+      '[Gaussian](https://gaussian.com/)': 3
+      '[GAMESS-US](https://www.msg.chem.iastate.edu/gamess/)': 2
+      '[Dalton](https://www.daltonprogram.org/)': 2
+      '[xTB](https://xtb-docs.readthedocs.io/en/latest/contents.html)': 1
+      '[sTDA](https://github.com/grimme-lab/stda)': 2
+      '[CP2K](https://www.cp2k.org/)': 1
+      '[VASP](https://www.vasp.at/)': 1
     extra: 'Utilisé pour le calcul de propriétés ONL, y compris de manière approximée grâce à [sTD-DFT](https://github.com/grimme-lab/stda).'
   - name: 'Méthodes de chimie quantique'
     topics:
