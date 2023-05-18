@@ -6,6 +6,8 @@ skills:
       Dalton: 2
       xTB: 1
       sTDA: 2
+      CP2K: 1
+      VASP: 1
     extra: 'I focused on the calculation of NLO properties, including with approximate methods such as [sTD-DFT](https://github.com/grimme-lab/stda).'
   - name: 'QM methods'
     topics:
