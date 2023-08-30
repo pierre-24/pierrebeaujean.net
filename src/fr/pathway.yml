@@ -1,4 +1,6 @@
 pathway:
+  - when: "Août 2023"
+    what: "**Short talk** à la conférence [EuChemS CompChem 2023](https://euchems-compchem.eu/), sur le sujet *Ruthenium Complexes as a Test System to Unravel the Symmetry Effects on the Second-Order Nonlinear Optical Responses of Molecular Switches* (Thessalonique, Grèce)"
   - when: "Septembre 2022"
     what: "Début d'un post-doc dans le [projet ECOBAT (EOS)](https://eos-ecobat.eu/) sur l'étude de nouvelles batteries grâce à des méthodes de chimie quantique."
   - when: "Aout 2022"
