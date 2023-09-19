@@ -1,5 +1,16 @@
 publications:
   - authors:
+    - "K. S. Kaka"
+    - "P. Beaujean"
+    - "F. Castet"
+    - "B. Champagne"
+    title: "A quantum chemical investigation of the second hyperpolarizability of p-nitroaniline"
+    journal: "J. Chem. Phys."
+    volume: 159
+    page: 114104
+    year: 2023
+    doi: '10.1063/5.0164602'
+  - authors:
     - B. R. Hood
     - Y. de Coene
     - A. V. Torre Do Vale Froes
