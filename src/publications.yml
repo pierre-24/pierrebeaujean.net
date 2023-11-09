@@ -1,5 +1,28 @@
 publications:
   - authors:
+    - "S. Löffelsender"
+    - "P. Beaujean"
+    - "M. de Wergifosse"
+    title: "Simplified quantum chemistry methods to evaluate non-linear optical properties of large systems"
+    journal: "WIREs Comput. Mol. Sci."
+    volume: 2023
+    page: e1695
+    year: 2023
+    doi: '10.1002/wcms.1695'
+  - authors:
+    - "C. Bouquiaux"
+    - "P. Beaujean"
+    - "T. N. Ramos"
+    - "F. Castet"
+    - "V. Rodriguez"
+    - "B. Champagne"
+    title: "First hyperpolarizability of the di-8-ANEPPS and DR1 nonlinear optical chromophores in solution. An experimental and multi-scale theoretical chemistry study"
+    journal: "J. Chem. Phys."
+    volume: 159
+    page: 174307
+    year: 2023
+    doi: '10.1063/5.0174979'
+  - authors:
     - "K. S. Kaka"
     - "P. Beaujean"
     - "F. Castet"
