@@ -1,4 +1,8 @@
 pathway:
+  - when: "July 2024"
+    what: "**Oral communication** at the [9th EuChemS](https://euchems2024.org/) on *Unraveling the behavior of Ca anode in B-containing salt electrolytes: a computational study* (Dublin, Ireland)"
+  - when: "July 2024"
+    what: "**Co-organization** (local committee) and **Oral communication** at the [Chitel 2024](https://chitel-2024.unamur.be/) on *Exploration of charge-compensating correction schemes for predicting the redox potentials: application to nitroxides* (Namur, Belgium)"
   - when: "August 2023"
     what: "**Short talk** at the [EuChemS CompChem 2023](https://euchems-compchem.eu/) on *Ruthenium Complexes as a Test System to Unravel the Symmetry Effects on the Second-Order Nonlinear Optical Responses of Molecular Switches* (Thessaloniki, Greece)"
   - when: "September 2022"
