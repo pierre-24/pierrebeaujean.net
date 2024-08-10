@@ -1,5 +1,17 @@
 publications:
   - authors:
+    - "N. Deveaux"
+    - "T. N. Ramos"
+    - "P. Beaujean"
+    - "F. Castet"
+    - "B. Champagne"
+    title: "Quantum Chemical Study of a Dihydroazulene-Spiropyran Multi-State Multi-Functional Molecular Switch"
+    journal: "ChemPhotoChem"
+    volume: 2024
+    page: e202400063
+    year: 2024
+    doi: '10.1002/cptc.202400063'
+  - authors:
     - "C. Bouquiaux"
     - "B. Champagne"
     - "P. Beaujean"
