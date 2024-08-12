@@ -1,4 +1,8 @@
 zds:
+  - title: "Comptez avec moi les retours !"
+    type: billet
+    link: 4718/comptez-avec-moi-les-retours/
+    date: "Août 2024"
   - title: "FOSDEM 2023"
     type: "billet"
     link: "4437/fosdem-2023/"
