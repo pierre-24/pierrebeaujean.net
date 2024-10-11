@@ -1,5 +1,13 @@
 publications:
   - authors:
+    - "P. Beaujean"
+    title: "Solvent effects on the prediction of redox potentials: application to nitroxides"
+    journal: "J. Mol. Liq."
+    volume: "*tba*"
+    page: "*tba*"
+    year: 2024
+    doi: '10.1016/j.molliq.2024.126207'
+  - authors:
     - "N. Deveaux"
     - "T. N. Ramos"
     - "P. Beaujean"
