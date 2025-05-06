@@ -1,12 +1,23 @@
 publications:
   - authors:
     - "P. Beaujean"
+    - "B. Champagne"
+    title: "Binding Energies of Molecules Grafted onto Calcium Surfaces: A Periodic DFT Investigation"
+    journal: "J. Chem. Phys. C "
+    volume: xx
+    page: xxx
+    year: 2025
+    doi: '10.1021/acs.jpcc.5c01160'
+    pdf: https://github.com/pierre-24/publi-XPS/releases/download/latest/Main_Text.pdf
+  - authors:
+    - "P. Beaujean"
     title: "Solvent effects on the prediction of redox potentials: application to nitroxides"
     journal: "J. Mol. Liq."
     volume: "414"
     page: "126207"
     year: 2024
     doi: '10.1016/j.molliq.2024.126207'
+    pdf: https://github.com/pierre-24/publi-nitroxides/releases/download/latest/Main_Text.pdf
   - authors:
     - "N. Deveaux"
     - "T. N. Ramos"
@@ -19,6 +30,7 @@ publications:
     page: e202400063
     year: 2024
     doi: '10.1002/cptc.202400063'
+    pdf: https://chemistry-europe.onlinelibrary.wiley.com/doi/epdf/10.1002/cptc.202400063
   - authors:
     - "C. Bouquiaux"
     - "B. Champagne"
@@ -29,6 +41,7 @@ publications:
     page: 518
     year: 2024
     doi: '10.1021/acs.jcim.3c01568'
+    pdf: https://researchportal.unamur.be/files/100733879/PM_marked.pdf
   - authors:
     - "S. Löffelsender"
     - "P. Beaujean"
@@ -39,6 +52,7 @@ publications:
     page: e1695
     year: 2023
     doi: '10.1002/wcms.1695'
+    pdf: https://researchportal.unamur.be/files/100734749/WIREs_2023.pdf
   - authors:
     - "C. Bouquiaux"
     - "P. Beaujean"
@@ -52,6 +66,7 @@ publications:
     page: 174307
     year: 2023
     doi: '10.1063/5.0174979'
+    pdf: https://researchportal.unamur.be/files/100733829/Publi_solutions.pdf
   - authors:
     - "K. S. Kaka"
     - "P. Beaujean"
@@ -63,6 +78,7 @@ publications:
     page: 114104
     year: 2023
     doi: '10.1063/5.0164602'
+    pdf: https://researchportal.unamur.be/files/87333137/JCP23-AR-02127.pdf
   - authors:
     - B. R. Hood
     - Y. de Coene
@@ -80,6 +96,7 @@ publications:
     page: "e202215537"
     year: 2023
     doi: "10.1002/anie.202215537"
+    pdf: https://onlinelibrary.wiley.com/doi/epdf/10.1002/anie.202215537
   - authors:
     - "M. de Wergifosse"
     - "P. Beaujean"
@@ -107,6 +124,7 @@ publications:
     page: 110270
     year: 2022
     doi: '10.1016/j.dyepig.2022.110270'
+    pdf: https://researchportal.unamur.be/files/65620799/Dyes_and_Pigments_202_110270_2022_.pdf
   - authors:
     - "P. Beaujean"
     - "L. Sanguinet"
@@ -119,6 +137,7 @@ publications:
     page: 2770
     year: 2022
     doi: '10.3390/molecules27092770'
+    pdf: https://researchportal.unamur.be/files/65621403/Molecules_22_2770_2022_.pdf
   - authors:
     - "P. Beaujean"
     - "B. Champagne"
@@ -128,6 +147,7 @@ publications:
     page: 1928
     year: 2022
     doi: '10.1021/acs.inorgchem.1c03077'
+    pdf: https://pubs.acs.org/doi/pdf/10.1021/acs.inorgchem.1c03077
   - authors:
       - "L. Lescos"
       - "P. Beaujean"
@@ -156,6 +176,7 @@ publications:
     page: 9684
     year: 2021
     doi: '10.1021/acs.jpclett.1c02911'
+    pdf: https://researchportal.unamur.be/files/61330824/letter_prot_hl.pdf
   - authors:
       - "J. Quertinmont"
       - "P. Beaujean"
@@ -171,6 +192,7 @@ publications:
     page: 3918
     year: 2021
     doi: "10.1021/acs.jpcb.1c01962"
+    pdf: https://researchportal.unamur.be/files/60842828/J._Phys._Chem._B_125_3918_3931_2021_.pdf
   - authors:
     - "L. Lescos"
     - "S. P. Sitkiewicz"
@@ -185,6 +207,7 @@ publications:
     page: 16579
     year: 2020
     doi: '10.1039/D0CP02992K'
+    pdf: https://researchportal.unamur.be/files/60843515/Phys._Chem._Chem._Phys._22_16579_16594_2020_.pdf
   - authors:
     - "P. Beaujean"
     - "B. Champagne"
@@ -194,15 +217,7 @@ publications:
     page: '064303'
     year: 2019
     doi: '10.1063/1.5110375'
-  - authors:
-    - "P. Beaujean"
-    - "B. Champagne"
-    title: "Coupled cluster evaluation of the second and third harmonic scattering responses of small molecules"
-    journal: "Theo. Chem. Acc."
-    volume: 137
-    page: 50
-    year: 2017
-    doi: '10.1007/s00214-018-2219-y'
+    pdf: https://researchportal.unamur.be/files/54061044/JCP19_AR_01870.pdf
   - authors:
     - "B. Champagne"
     - "P. Beaujean"
@@ -216,6 +231,16 @@ publications:
     page: 117
     year: 2018
     doi: '10.1007/978-981-10-5651-2_6'
+    pdf: https://researchportal.unamur.be/files/75673019/2018_ChampagneBeaujeanDeWergifosseCardenutoLiegeois_article.pdf
+  - authors:
+    - "P. Beaujean"
+    - "B. Champagne"
+    title: "Coupled cluster evaluation of the second and third harmonic scattering responses of small molecules"
+    journal: "Theo. Chem. Acc."
+    volume: 137
+    page: 50
+    year: 2017
+    doi: '10.1007/s00214-018-2219-y'
   - authors:
     - "P. Beaujean"
     - "B. Champagne"
@@ -225,6 +250,7 @@ publications:
     page: '044311'
     year: 2016
     doi: '10.1063/1.4958736'
+    pdf: https://researchportal.unamur.be/files/13849459/Coupled_cluster_evaluation_of_the_frequency_dispersion_of_the_first_and_second_hyperpolarizabilities_of_water_methanol_and_dimethyl_ether.pdf
   - authors:
     - "P. Beaujean"
     - "F. Bondu"
@@ -241,6 +267,7 @@ publications:
     page: 5052
     year: 2016
     doi: '10.1021/jacs.5b13243'
+    pdf: https://pubs.acs.org/doi/pdf/10.1021/jacs.5b13243?download=true
   - authors:
     - "P. Beaujean"
     - "M. Kertesz"
@@ -250,3 +277,4 @@ publications:
     page: 147
     year: 2015
     doi: '10.1007/s00214-015-1750-3'
+    pdf: https://www.researchgate.net/profile/Pierre-Beaujean/publication/283747471_Helical_molecular_redox_actuators_with_pancake_bonds/links/56af2f3e08ae28588c62e85a/Helical-molecular-redox-actuators-with-pancake-bonds.pdf

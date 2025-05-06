@@ -1,9 +1,30 @@
 
+{% if publications|length > 1 %}
+    <h3>{{ publications[0].year }}</h3>
+{% endif %}
 {% for pub in publications %}
-    <p>
+    {%  if loop.index == (num_publi_visible + 1)  and publications|length > num_publi_visible %}
+    <div class="collapse" id="collapseSeeMorePublis">
+    {% endif %}
+
+    {% if loop.previtem and (loop.previtem.year != pub.year) %}<h3>{{ pub.year }}</h3>{% endif %}
+    <p>[{{ publications|length - loop.index + 1 }}]
     {% for a in pub.authors %}{%  if a == "P. Beaujean" %}<b>{{ a }}</b>{% else %}{{ a }}{% endif %}, {% endfor %}
     <u>{{ pub.title }}</u>.
     <i>{{ pub.journal }}</i>
-    <b>{{ pub.year }}</b>, <i>{{ pub.volume }}</i>, {{ pub.page }} (<a href="https://dx.doi.org/{{ pub.doi }}">{{ pub.doi }}</a>).
+    <b>{{ pub.year }}</b>, <i>{{ pub.volume }}</i>, {{ pub.page }} (<a href="https://dx.doi.org/{{ pub.doi }}">{{ pub.doi }}</a>)
+    {% if pub.pdf %}
+        [<a href="{{ pub.pdf }}" title="Get the full text"><span class="fa-solid fa-file-pdf"></span></a>]
+    {% endif %}
     </p>
 {% endfor %}
+
+{% if publications|length > num_publi_visible %}
+</div>
+    <p>
+    <a class="btn btn-primary"
+	data-bs-toggle="collapse" data-bs-target="#collapseSeeMorePublis"
+	aria-expanded="false" aria-controls="collapseSeeMorePublis">
+        <i class="bi bi-plus"></i> {{ more_button_text }}
+    </a></p>
+{% endif %}

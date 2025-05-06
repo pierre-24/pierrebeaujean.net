@@ -20,7 +20,8 @@
 
 {% block publications %}
     {% if publications %}
-    <h2 id="publications">My publications</h2>
+        {% set more_button_text = 'See ' + (publications|length - num_publi_visible)|string + ' more' %}
+    <h2 id="publications">Latest publications</h2>
         <p class="pubs-bibtex">Donwload this bibliography: <a href="./bibliography.bib">BibTeX format</a>.</p>
     {% include "publications.inc.html" %}
     {% endif %}
