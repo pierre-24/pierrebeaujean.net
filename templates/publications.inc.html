@@ -4,6 +4,9 @@
     {% for a in pub.authors %}{%  if a == "P. Beaujean" %}<b>{{ a }}</b>{% else %}{{ a }}{% endif %}, {% endfor %}
     <u>{{ pub.title }}</u>.
     <i>{{ pub.journal }}</i>
-    <b>{{ pub.year }}</b>, <i>{{ pub.volume }}</i>, {{ pub.page }} (<a href="https://dx.doi.org/{{ pub.doi }}">{{ pub.doi }}</a>).
+    <b>{{ pub.year }}</b>, <i>{{ pub.volume }}</i>, {{ pub.page }} (<a href="https://dx.doi.org/{{ pub.doi }}">{{ pub.doi }}</a>)
+    {% if pub.pdf %}
+        [<a href="{{ pub.pdf }}"><span class="fa-solid fa-file-pdf"></span> Get</a>]
+    {% endif %}
     </p>
 {% endfor %}
