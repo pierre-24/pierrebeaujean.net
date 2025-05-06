@@ -1,6 +1,15 @@
 publications:
   - authors:
     - "P. Beaujean"
+    - "B. Champagne"
+    title: "Binding Energies of Molecules Grafted onto Calcium Surfaces: A Periodic DFT Investigation"
+    journal: "J. Chem. Phys. C "
+    volume: xx
+    page: xxx
+    year: 2025
+    doi: '10.1021/acs.jpcc.5c01160'
+  - authors:
+    - "P. Beaujean"
     title: "Solvent effects on the prediction of redox potentials: application to nitroxides"
     journal: "J. Mol. Liq."
     volume: "414"
