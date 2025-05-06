@@ -3,6 +3,7 @@ last_name: 'Beaujean'
 sex: 'male'
 domain: 'https://pierrebeaujean.net'
 email_address: 'pierre.beaujean@unamur.be'
+num_publi_visible: 10
 accounts:
   twitter: 'PierreBeaujean'
   bluesky: 'pierrebeaujean.bsky.social'
