@@ -5,6 +5,7 @@ domain: 'https://pierrebeaujean.net'
 email_address: 'pierre.beaujean@unamur.be'
 accounts:
   twitter: 'PierreBeaujean'
+  bluesky: 'pierrebeaujean.bsky.social'
   linkedin: 'pierre-beaujean'
   orcid: '0000-0003-3723-3257'
   github: 'pierre-24'
