@@ -1,9 +1,40 @@
 publications:
   - authors:
+			- D. Rambabu
+			- T. Goossens
+			- V. R. Bakuru
+			- P. Apostol
+			- F. Mairesse
+			- T. Steenhaut
+			- P. Beaujean
+			- S. K. Mondal
+			- X. Guo
+			- Y. Zhang
+			- S. Pal
+			- R. Markowski
+			- X. Lin
+			- P. Xu
+			- G. Chanteux
+			- A. Kachmar
+			- D. Tie
+			- A. Ramackers
+			- V. Frano
+			- K. Robeyns
+			- T. K. Maji
+			- Y. Filinchuk
+			- B. Champagne
+			- A. Vlad
+    title: "Mixed proton-electron conductivity in a dynamic 3D metal-organic framework"
+    journal: "Chem"
+    volume: xx
+    page: xxx
+    year: 2025
+    doi: '10.1016/j.chempr.2025.102590'
+  - authors:
     - "P. Beaujean"
     - "B. Champagne"
     title: "Binding Energies of Molecules Grafted onto Calcium Surfaces: A Periodic DFT Investigation"
-    journal: "J. Chem. Phys. C "
+    journal: "J. Chem. Phys. C"
     volume: xx
     page: xxx
     year: 2025
