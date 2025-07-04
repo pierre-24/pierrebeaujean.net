@@ -1,5 +1,17 @@
 publications:
   - authors:
+    - N. Deveaux
+    - D. Valverde
+    - P. Beaujean
+    - B. Champagne
+    - T. N. Ramos
+    title: "Quantum chemical investigation of a multistate multifunctional molecular switch triggered by two-photon absorption"
+    journal: "Theor. Chem. Acc."
+    volume: 144
+    page: 62
+    year: 2025
+    doi: '10.1007/s00214-025-03214-4'
+  - authors:
       - D. Rambabu
       - T. Goossens
       - V. R. Bakuru
