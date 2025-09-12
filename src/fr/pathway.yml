@@ -1,4 +1,6 @@
 pathway:
+  - when: "Septembre 2025"
+    what: "**Communication orale** à la [Main-Group Elements Reactivity Conference (MG-ERC)](https://mgerc.unamur.be/) sur le sujet *Probing the reactive and electrochemical behavior of calcium anodes in B-rich environments via computational methods* (Namur, Belgique)"
   - when: "Juin 2025"
     what: "**Poster** au [WATOC 2025](https://www.watoc2025.no/) sur le sujet *Prediction of XPS spectra for molecules grafted on calcium surfaces* (Oslo, Norvège)"
   - when: "Juillet 2024"
@@ -6,7 +8,7 @@ pathway:
   - when: "Juillet 2024"
     what: "**Co-organisation** (comité local) et **communication oral** à la conférence [Chitel 2024](https://chitel-2024.unamur.be/), sur le sujet *Exploration of charge-compensating correction schemes for predicting the redox potentials: application to nitroxides* (Namur, Belgique)"
   - when: "Août 2023"
-    what: "**Short talk** à la conférence [EuChemS CompChem 2023](https://euchems-compchem.eu/), sur le sujet *Ruthenium Complexes as a Test System to Unravel the Symmetry Effects on the Second-Order Nonlinear Optical Responses of Molecular Switches* (Thessalonique, Grèce)"
+    what: "**Communication orale** à la conférence [EuChemS CompChem 2023](https://euchems-compchem.eu/), sur le sujet *Ruthenium Complexes as a Test System to Unravel the Symmetry Effects on the Second-Order Nonlinear Optical Responses of Molecular Switches* (Thessalonique, Grèce)"
   - when: "Septembre 2022"
     what: "Début d'un post-doc dans le [projet ECOBAT (EOS)](https://eos-ecobat.eu/) sur l'étude de nouvelles batteries grâce à des méthodes de chimie quantique."
   - when: "Aout 2022"

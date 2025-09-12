@@ -1,4 +1,6 @@
 pathway:
+  - when: "September 2025"
+    what: "**Talk** at the [Main-Group Elements Reactivity Conference (MG-ERC)](https://mgerc.unamur.be/) on *Probing the reactive and electrochemical behavior of calcium anodes in B-rich environments via computational methods* (Namur, Belgium)"
   - when: "June 2025"
     what: "**Poster** at the [WATOC 2025](https://www.watoc2025.no/) on *Prediction of XPS spectra for molecules grafted on calcium surfaces* (Oslo, Norway)"
   - when: "July 2024"
