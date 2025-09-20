@@ -1,5 +1,14 @@
 publications:
   - authors:
+    - P. Beaujean
+    - B. Champagne
+    title: "Influence of symmetry on the second-order NLO properties: insights from the few state approximations"
+    journal: "Pure Appl. Chem."
+    volume: xxx
+    page: xxx
+    year: 2025
+    doi: '10.1515/pac-2025-0518'
+  - authors:
     - N. Deveaux
     - D. Valverde
     - P. Beaujean
