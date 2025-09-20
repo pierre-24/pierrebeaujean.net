@@ -8,6 +8,7 @@ publications:
     page: xxx
     year: 2025
     doi: '10.1515/pac-2025-0518'
+    pdf: https://github.com/pierre-24/publi-few-state-models-beta/releases/download/latest/Main_Text.pdf
   - authors:
     - N. Deveaux
     - D. Valverde
@@ -20,6 +21,7 @@ publications:
     page: 62
     year: 2025
     doi: '10.1007/s00214-025-03214-4'
+    pdf: https://researchportal.unamur.be/files/110866622/manuscript.pdf
   - authors:
       - D. Rambabu
       - T. Goossens
