@@ -2,6 +2,28 @@ publications:
   - authors:
     - P. Beaujean
     - B. Champagne
+    title: "Theoretical study of reduction reactions near a calcium anode: a grand canonical DFT investigation"
+    journal: "J. Mat. Chem. A "
+    volume: 'accepted'
+    page: 'N.A.'
+    year: 2026
+    doi: 'N.A.'
+    pdf: https://github.com/pierre-24/publi-ECOBAT-EI/releases/download/latest/Main_Text.pdf
+  - authors:
+    - A. Liger
+    - A. Satisha
+    - P. Beaujean
+    - M. de Wergifosse
+    title: "Drastically reducing the cost of the XsTD-DFT family of methods using a minimal auxiliary basis set (ηXsTD-DFT) to efficiently treat ultra large systems"
+    journal: "ChemRxiv"
+    volume: 'N.A.'
+    page: 'N.A.'
+    year: 2026
+    doi: '10.26434/chemrxiv.15004945/v1'
+    pdf: https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15004945/v1
+  - authors:
+    - P. Beaujean
+    - B. Champagne
     title: "Influence of symmetry on the second-order NLO properties: insights from the few state approximations"
     journal: "Pure Appl. Chem."
     volume: 97
