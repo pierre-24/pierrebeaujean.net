@@ -8,7 +8,7 @@ skills:
       '[sTD2](https://github.com/Theoretical-Chemistry-Group-UCLouvain/std2)': 2
       '[VASP](https://www.vasp.at/)': 2
       '[CP2K](https://www.cp2k.org/)': 1
-    extra: 'Utilisé pour le calcul de données spectroscopique et de propriétés linéaires et non-linéaire, de manière exacte et approximée grâce à l\'approche [XsTD-DFT](https://github.com/Theoretical-Chemistry-Group-UCLouvain/std2).'
+    extra: "Utilisé pour le calcul de données spectroscopique et de propriétés linéaires et non-linéaires, de manière exacte et approximée grâce à l'approche [XsTD-DFT](https://github.com/Theoretical-Chemistry-Group-UCLouvain/std2)."
   - name: 'Méthodes de chimie quantique'
     topics:
       Hartree-Fock: 3
