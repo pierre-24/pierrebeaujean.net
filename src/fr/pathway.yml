@@ -1,4 +1,6 @@
 pathway:
+  - when: "Août 2026"
+    what: "**Poster**  à la [21st International Conference on Density Functional Theory and its Applications (DFT 2026)](dft2026.com) sur le sujet *Theoretical Study of Reduction Reactions near a Calcium Anode: a Grand Canonical DFT Investigation* (Donostia, Pays Basque)"
   - when: "Septembre 2025"
     what: "**Communication orale** à la [Main-Group Elements Reactivity Conference (MG-ERC)](https://mgerc.unamur.be/) sur le sujet *Probing the reactive and electrochemical behavior of calcium anodes in B-rich environments via computational methods* (Namur, Belgique)"
   - when: "Juin 2025"
@@ -6,7 +8,7 @@ pathway:
   - when: "Juillet 2024"
     what: "**Communication orale** à la conférence [9th EuChemS](https://euchems2024.org/), sur le sujet *Unraveling the behavior of Ca anode in B-containing salt electrolytes: a computational study* (Dublin, Irlande)"
   - when: "Juillet 2024"
-    what: "**Co-organisation** (comité local) et **communication oral** à la conférence [Chitel 2024](https://chitel-2024.unamur.be/), sur le sujet *Exploration of charge-compensating correction schemes for predicting the redox potentials: application to nitroxides* (Namur, Belgique)"
+    what: "**Co-organisation** (comité local) et **communication orale** à la conférence [Chitel 2024](https://chitel-2024.unamur.be/), sur le sujet *Exploration of charge-compensating correction schemes for predicting the redox potentials: application to nitroxides* (Namur, Belgique)"
   - when: "Août 2023"
     what: "**Communication orale** à la conférence [EuChemS CompChem 2023](https://euchems-compchem.eu/), sur le sujet *Ruthenium Complexes as a Test System to Unravel the Symmetry Effects on the Second-Order Nonlinear Optical Responses of Molecular Switches* (Thessalonique, Grèce)"
   - when: "Septembre 2022"
