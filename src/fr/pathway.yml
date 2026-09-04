@@ -1,4 +1,6 @@
 pathway:
+  - when: "Août 2026"
+    what: "**Poster**  à la [21st International Conference on Density Functional Theory and its Applications (DFT 2026)](dft2026.com) sur le sujet *Theoretical Study of Reduction Reactions near a Calcium Anode: a Grand Canonical DFT Investigation* (Donostia, Pays Basque)"
   - when: "Septembre 2025"
     what: "**Communication orale** à la [Main-Group Elements Reactivity Conference (MG-ERC)](https://mgerc.unamur.be/) sur le sujet *Probing the reactive and electrochemical behavior of calcium anodes in B-rich environments via computational methods* (Namur, Belgique)"
   - when: "Juin 2025"
