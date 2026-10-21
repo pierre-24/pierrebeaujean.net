@@ -1,6 +1,32 @@
 publications:
   - authors:
     - P. Beaujean
+    - A. Liger
+    - A. Satisha
+    - M. G. Maraldi
+    - C. Banwarth
+    - M. de Wergifosse
+    title: "The std2 package: A computationally efficient program to calculate molecular response properties and excited states using simplified quantum chemistry methods"
+    journal: "J. Chem. Phys."
+    volume: '165'
+    page: '152501'
+    year: 2026
+    doi: '10.1063/5.0349975'
+    pdf: https://github.com/Theoretical-Chemistry-Group-UCLouvain/publi-sQC-std2-2026/releases/download/latest/Main_Text.pdf
+  - authors:
+    - A. Liger
+    - A. Satisha
+    - P. Beaujean
+    - M. de Wergifosse
+    title: "Drastically reducing the cost of the XsTD-DFT family of methods using a minimal auxiliary basis set (ηXsTD-DFT) to efficiently treat ultra large systems"
+    journal: "Phys. Chem. Chem. Phys."
+    volume: ''
+    page: ''
+    year: 2026
+    doi: '10.1039/d6cp02294d'
+    pdf: https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15004945/v1
+  - authors:
+    - P. Beaujean
     - B. Champagne
     title: "Theoretical study of reduction reactions near a calcium anode: a grand canonical DFT investigation"
     journal: "J. Mat. Chem. A "
@@ -9,18 +35,6 @@ publications:
     year: 2026
     doi: '10.1039/D6TA02841A'
     pdf: https://github.com/pierre-24/publi-ECOBAT-EI/releases/download/latest/Main_Text.pdf
-  - authors:
-    - A. Liger
-    - A. Satisha
-    - P. Beaujean
-    - M. de Wergifosse
-    title: "Drastically reducing the cost of the XsTD-DFT family of methods using a minimal auxiliary basis set (ηXsTD-DFT) to efficiently treat ultra large systems"
-    journal: "ChemRxiv"
-    volume: ''
-    page: ''
-    year: 2026
-    doi: '10.26434/chemrxiv.15004945/v1'
-    pdf: https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15004945/v1
   - authors:
     - P. Beaujean
     - B. Champagne
